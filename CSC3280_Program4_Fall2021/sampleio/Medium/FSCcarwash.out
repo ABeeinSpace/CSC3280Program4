@@ -1,0 +1,1255 @@
+Welcome to the FSC Car Clean Simulator
+
+**********
+Day 1:
+**********
+
+10:00 AM:  EMORY BRIDE arrived at the FSC Car Clean and immediately started Class W service.
+10:04 AM:  The car for EMORY BRIDE is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 4 minutes
+           Total time: 4 minutes
+10:08 AM:  MA FANTROY arrived at the FSC Car Clean and immediately started Class WWV service.
+10:14 AM:  BRIAN ARTALE arrived at the FSC Car Clean and entered Wash Queue.
+10:19 AM:  FERNANDA ZAGEN arrived at the FSC Car Clean and entered Wash Queue.
+10:22 AM:  The car for MA FANTROY is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 14 minutes
+           Total time: 14 minutes
+10:22 AM:  BRIAN ARTALE has now started Class W service.
+10:26 AM:  The car for BRIAN ARTALE is now finished.
+           Waiting time in line: 8 minutes
+           Service time: 4 minutes
+           Total time: 12 minutes
+10:26 AM:  FERNANDA ZAGEN has now started Class W service.
+10:28 AM:  ALENE KIEDROWSKI arrived at the FSC Car Clean and entered Wash Queue.
+10:30 AM:  The car for FERNANDA ZAGEN is now finished.
+           Waiting time in line: 7 minutes
+           Service time: 4 minutes
+           Total time: 11 minutes
+10:30 AM:  ALENE KIEDROWSKI has now started Class WW service.
+10:33 AM:  LINDSEY ROUNSVILLE arrived at the FSC Car Clean and entered Wash Queue.
+10:39 AM:  The car for ALENE KIEDROWSKI is now finished.
+           Waiting time in line: 2 minutes
+           Service time: 9 minutes
+           Total time: 11 minutes
+10:39 AM:  LINDSEY ROUNSVILLE has now started Class WW service.
+10:41 AM:  VANNESSA GIVAN arrived at the FSC Car Clean and entered Wash Queue.
+10:47 AM:  RAGUEL SAXE arrived at the FSC Car Clean and entered Wash Queue.
+10:48 AM:  The car for LINDSEY ROUNSVILLE is now finished.
+           Waiting time in line: 6 minutes
+           Service time: 9 minutes
+           Total time: 15 minutes
+10:48 AM:  VANNESSA GIVAN has now started Class WWV service.
+10:53 AM:  LOIDA BURKEY arrived at the FSC Car Clean and entered Wash Queue.
+10:53 AM:  AUDRIE EAMES arrived at the FSC Car Clean and entered Wash Queue.
+11:01 AM:  ARACELIS ALMOND arrived at the FSC Car Clean and entered Wash Queue.
+11:02 AM:  The car for VANNESSA GIVAN is now finished.
+           Waiting time in line: 7 minutes
+           Service time: 14 minutes
+           Total time: 21 minutes
+11:02 AM:  RAGUEL SAXE has now started Class WW service.
+11:09 AM:  MARK POTO arrived at the FSC Car Clean and entered Wash Queue.
+11:11 AM:  The car for RAGUEL SAXE is now finished.
+           Waiting time in line: 15 minutes
+           Service time: 9 minutes
+           Total time: 24 minutes
+11:11 AM:  LOIDA BURKEY has now started Class WW service.
+11:18 AM:  ROSARIA RIEGLE arrived at the FSC Car Clean and entered Wash Queue.
+11:20 AM:  The car for LOIDA BURKEY is now finished.
+           Waiting time in line: 18 minutes
+           Service time: 9 minutes
+           Total time: 27 minutes
+11:20 AM:  AUDRIE EAMES has now started Class W service.
+11:24 AM:  The car for AUDRIE EAMES is now finished.
+           Waiting time in line: 27 minutes
+           Service time: 4 minutes
+           Total time: 31 minutes
+11:24 AM:  ARACELIS ALMOND has now started Class WWV service.
+11:26 AM:  LORETTA VESELY arrived at the FSC Car Clean and entered Wash Queue.
+11:33 AM:  LEENA HAGEE arrived at the FSC Car Clean and entered Wash Queue.
+11:38 AM:  The car for ARACELIS ALMOND is now finished.
+           Waiting time in line: 23 minutes
+           Service time: 14 minutes
+           Total time: 37 minutes
+11:38 AM:  MARK POTO has now started Class WWV service.
+11:39 AM:  WENDI GROOVER arrived at the FSC Car Clean and entered Wash Queue.
+11:48 AM:  KHADIJAH POLLOT arrived at the FSC Car Clean and entered Wash Queue.
+11:48 AM:  EFFIE SHAY arrived at the FSC Car Clean and entered Wash Queue.
+11:52 AM:  The car for MARK POTO is now finished.
+           Waiting time in line: 29 minutes
+           Service time: 14 minutes
+           Total time: 43 minutes
+11:52 AM:  ROSARIA RIEGLE has now started Class WWV service.
+11:55 AM:  TRISTAN ANYAN arrived at the FSC Car Clean and entered Wash Queue.
+11:55 AM:  RUSSELL HYSON arrived at the FSC Car Clean and entered Wash Queue.
+12:04 PM:  VICTOR VENNERI arrived at the FSC Car Clean and entered Wash Queue.
+12:06 PM:  The car for ROSARIA RIEGLE is now finished.
+           Waiting time in line: 34 minutes
+           Service time: 14 minutes
+           Total time: 48 minutes
+12:06 PM:  LORETTA VESELY has now started Class WWV service.
+12:09 PM:  ALEJANDRO SNOOK arrived at the FSC Car Clean and entered Wash Queue.
+12:14 PM:  LYNN DEPERRO arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+12:20 PM:  The car for LORETTA VESELY is now finished.
+           Waiting time in line: 40 minutes
+           Service time: 14 minutes
+           Total time: 54 minutes
+12:20 PM:  LEENA HAGEE has now started Class WWV service.
+12:21 PM:  MARGIE ALIBOZEK arrived at the FSC Car Clean and entered Wash Queue.
+12:29 PM:  DANICA DATZ arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+12:34 PM:  The car for LEENA HAGEE is now finished.
+           Waiting time in line: 47 minutes
+           Service time: 14 minutes
+           Total time: 61 minutes
+12:34 PM:  WENDI GROOVER has now started Class W service.
+12:38 PM:  The car for WENDI GROOVER is now finished.
+           Waiting time in line: 55 minutes
+           Service time: 4 minutes
+           Total time: 59 minutes
+12:38 PM:  KHADIJAH POLLOT has now started Class WW service.
+12:38 PM:  MUOI WELCHEL arrived at the FSC Car Clean and entered Wash Queue.
+12:44 PM:  ISIS MORLAN arrived at the FSC Car Clean and entered Wash Queue.
+12:47 PM:  The car for KHADIJAH POLLOT is now finished.
+           Waiting time in line: 50 minutes
+           Service time: 9 minutes
+           Total time: 59 minutes
+12:47 PM:  EFFIE SHAY has now started Class WW service.
+12:49 PM:  SHONDRA JERAULD arrived at the FSC Car Clean and entered Wash Queue.
+12:55 PM:  TREVA LEDERMANN arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+12:56 PM:  The car for EFFIE SHAY is now finished.
+           Waiting time in line: 59 minutes
+           Service time: 9 minutes
+           Total time: 68 minutes
+12:56 PM:  TRISTAN ANYAN has now started Class W service.
+ 1:00 PM:  The car for TRISTAN ANYAN is now finished.
+           Waiting time in line: 61 minutes
+           Service time: 4 minutes
+           Total time: 65 minutes
+ 1:00 PM:  RUSSELL HYSON has now started Class WWV service.
+ 1:00 PM:  DENISE AKUNA arrived at the FSC Car Clean and entered Wash Queue.
+ 1:09 PM:  GERRY DENSIESKI arrived at the FSC Car Clean and entered Wash Queue.
+ 1:14 PM:  The car for RUSSELL HYSON is now finished.
+           Waiting time in line: 65 minutes
+           Service time: 14 minutes
+           Total time: 79 minutes
+ 1:14 PM:  VICTOR VENNERI has now started Class WW service.
+ 1:23 PM:  The car for VICTOR VENNERI is now finished.
+           Waiting time in line: 70 minutes
+           Service time: 9 minutes
+           Total time: 79 minutes
+ 1:23 PM:  ALEJANDRO SNOOK has now started Class W service.
+ 1:27 PM:  The car for ALEJANDRO SNOOK is now finished.
+           Waiting time in line: 74 minutes
+           Service time: 4 minutes
+           Total time: 78 minutes
+ 1:27 PM:  MARGIE ALIBOZEK has now started Class WWV service.
+ 1:41 PM:  The car for MARGIE ALIBOZEK is now finished.
+           Waiting time in line: 66 minutes
+           Service time: 14 minutes
+           Total time: 80 minutes
+ 1:41 PM:  MUOI WELCHEL has now started Class WW service.
+ 1:50 PM:  The car for MUOI WELCHEL is now finished.
+           Waiting time in line: 63 minutes
+           Service time: 9 minutes
+           Total time: 72 minutes
+ 1:50 PM:  ISIS MORLAN has now started Class WWV service.
+ 2:04 PM:  The car for ISIS MORLAN is now finished.
+           Waiting time in line: 66 minutes
+           Service time: 14 minutes
+           Total time: 80 minutes
+ 2:04 PM:  SHONDRA JERAULD has now started Class W service.
+ 2:08 PM:  The car for SHONDRA JERAULD is now finished.
+           Waiting time in line: 75 minutes
+           Service time: 4 minutes
+           Total time: 79 minutes
+ 2:08 PM:  DENISE AKUNA has now started Class WW service.
+ 2:17 PM:  The car for DENISE AKUNA is now finished.
+           Waiting time in line: 68 minutes
+           Service time: 9 minutes
+           Total time: 77 minutes
+ 2:17 PM:  GERRY DENSIESKI has now started Class W service.
+ 2:21 PM:  The car for GERRY DENSIESKI is now finished.
+           Waiting time in line: 68 minutes
+           Service time: 4 minutes
+           Total time: 72 minutes
+ 4:00 PM:  LOWLY Minion came and collected the following vouchers:
+           GERRY DENSIESKI (1255384)
+           DENISE AKUNA (1253389)
+           SHONDRA JERAULD (1257360)
+           ISIS MORLAN (1259357)
+           MUOI WELCHEL (1262786)
+           MARGIE ALIBOZEK (1253425)
+           ALEJANDRO SNOOK (1261674)
+           VICTOR VENNERI (1262570)
+           RUSSELL HYSON (1257236)
+           TRISTAN ANYAN (1253506)
+           EFFIE SHAY (1261432)
+           KHADIJAH POLLOT (1260291)
+           WENDI GROOVER (1256690)
+           LEENA HAGEE (1256795)
+           LORETTA VESELY (1262594)
+           ROSARIA RIEGLE (1260658)
+           MARK POTO (1260335)
+           ARACELIS ALMOND (1253449)
+           AUDRIE EAMES (1255701)
+           LOIDA BURKEY (1254453)
+           RAGUEL SAXE (1261127)
+           VANNESSA GIVAN (1256454)
+           LINDSEY ROUNSVILLE (1260889)
+           ALENE KIEDROWSKI (1257644)
+           FERNANDA ZAGEN (1263089)
+           BRIAN ARTALE (1253517)
+           MA FANTROY (1255922)
+           EMORY BRIDE (1254306)
+
+
+**********
+Day 2:
+**********
+
+10:09 AM:  NICHOLLE LOUDERMILL arrived at the FSC Car Clean and immediately started Class W service.
+10:12 AM:  The car for NICHOLLE LOUDERMILL is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 3 minutes
+           Total time: 3 minutes
+10:23 AM:  CONSUELO BERVER arrived at the FSC Car Clean and immediately started Class WW service.
+10:31 AM:  The car for CONSUELO BERVER is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+10:35 AM:  JOHNSON TAMBORLANE arrived at the FSC Car Clean and immediately started Class WW service.
+10:43 AM:  The car for JOHNSON TAMBORLANE is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+10:46 AM:  ADAN DOMBKOWSKI arrived at the FSC Car Clean and immediately started Class WW service.
+10:54 AM:  The car for ADAN DOMBKOWSKI is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+11:01 AM:  AMOS GREENLER arrived at the FSC Car Clean and immediately started Class WWV service.
+11:12 AM:  The car for AMOS GREENLER is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 11 minutes
+           Total time: 11 minutes
+11:14 AM:  ROXANA TILMON arrived at the FSC Car Clean and immediately started Class WW service.
+11:22 AM:  The car for ROXANA TILMON is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+11:27 AM:  MARCIA ROHLFS arrived at the FSC Car Clean and immediately started Class WW service.
+11:35 AM:  The car for MARCIA ROHLFS is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+11:41 AM:  BRITTANY JOACHIN arrived at the FSC Car Clean and immediately started Class WW service.
+11:49 AM:  The car for BRITTANY JOACHIN is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+11:51 AM:  REGINE HALBRITTER arrived at the FSC Car Clean and immediately started Class WWV service.
+12:02 PM:  The car for REGINE HALBRITTER is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 11 minutes
+           Total time: 11 minutes
+12:08 PM:  BRUNILDA CAPALONGAN arrived at the FSC Car Clean and immediately started Class WWV service.
+12:08 PM:  GLINDA SIGMOND arrived at the FSC Car Clean and entered Wash Queue.
+12:08 PM:  TOYA WALCZAK arrived at the FSC Car Clean and entered Wash Queue.
+12:08 PM:  RYAN MARRAPESE arrived at the FSC Car Clean and entered Wash Queue.
+12:19 PM:  The car for BRUNILDA CAPALONGAN is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 11 minutes
+           Total time: 11 minutes
+12:19 PM:  GLINDA SIGMOND has now started Class WWV service.
+12:19 PM:  LEAH RIGGIO arrived at the FSC Car Clean and entered Wash Queue.
+12:29 PM:  JOANNA AKHTAR arrived at the FSC Car Clean and entered Wash Queue.
+12:30 PM:  The car for GLINDA SIGMOND is now finished.
+           Waiting time in line: 11 minutes
+           Service time: 11 minutes
+           Total time: 22 minutes
+12:30 PM:  TOYA WALCZAK has now started Class WWV service.
+12:41 PM:  The car for TOYA WALCZAK is now finished.
+           Waiting time in line: 22 minutes
+           Service time: 11 minutes
+           Total time: 33 minutes
+12:41 PM:  RYAN MARRAPESE has now started Class WWV service.
+12:41 PM:  MARGERET HOESER arrived at the FSC Car Clean and entered Wash Queue.
+12:51 PM:  GABRIELE GULLIKSEN arrived at the FSC Car Clean and entered Wash Queue.
+12:52 PM:  The car for RYAN MARRAPESE is now finished.
+           Waiting time in line: 33 minutes
+           Service time: 11 minutes
+           Total time: 44 minutes
+12:52 PM:  LEAH RIGGIO has now started Class WW service.
+ 1:00 PM:  The car for LEAH RIGGIO is now finished.
+           Waiting time in line: 33 minutes
+           Service time: 8 minutes
+           Total time: 41 minutes
+ 1:00 PM:  JOANNA AKHTAR has now started Class WW service.
+ 1:04 PM:  CECILIA DIXONS arrived at the FSC Car Clean and entered Wash Queue.
+ 1:04 PM:  LAVONA DENIS arrived at the FSC Car Clean and entered Wash Queue.
+ 1:08 PM:  The car for JOANNA AKHTAR is now finished.
+           Waiting time in line: 31 minutes
+           Service time: 8 minutes
+           Total time: 39 minutes
+ 1:08 PM:  MARGERET HOESER has now started Class WW service.
+ 1:13 PM:  ETSUKO PATRIDGE arrived at the FSC Car Clean and entered Wash Queue.
+ 1:16 PM:  The car for MARGERET HOESER is now finished.
+           Waiting time in line: 27 minutes
+           Service time: 8 minutes
+           Total time: 35 minutes
+ 1:16 PM:  GABRIELE GULLIKSEN has now started Class WW service.
+ 1:24 PM:  The car for GABRIELE GULLIKSEN is now finished.
+           Waiting time in line: 25 minutes
+           Service time: 8 minutes
+           Total time: 33 minutes
+ 1:24 PM:  CECILIA DIXONS has now started Class W service.
+ 1:27 PM:  The car for CECILIA DIXONS is now finished.
+           Waiting time in line: 20 minutes
+           Service time: 3 minutes
+           Total time: 23 minutes
+ 1:27 PM:  LAVONA DENIS has now started Class WWV service.
+ 1:38 PM:  The car for LAVONA DENIS is now finished.
+           Waiting time in line: 23 minutes
+           Service time: 11 minutes
+           Total time: 34 minutes
+ 1:38 PM:  ETSUKO PATRIDGE has now started Class WWV service.
+ 1:49 PM:  The car for ETSUKO PATRIDGE is now finished.
+           Waiting time in line: 25 minutes
+           Service time: 11 minutes
+           Total time: 36 minutes
+ 4:00 PM:  LOWLY Minion came and collected the following vouchers:
+           ETSUKO PATRIDGE (1259945)
+           LAVONA DENIS (1255378)
+           CECILIA DIXONS (1255497)
+           GABRIELE GULLIKSEN (1256754)
+           MARGERET HOESER (1257149)
+           JOANNA AKHTAR (1253385)
+           LEAH RIGGIO (1260674)
+           RYAN MARRAPESE (1258752)
+           TOYA WALCZAK (1262693)
+           GLINDA SIGMOND (1261537)
+           BRUNILDA CAPALONGAN (1254588)
+           REGINE HALBRITTER (1256816)
+           BRITTANY JOACHIN (1257381)
+           MARCIA ROHLFS (1260845)
+           ROXANA TILMON (1262217)
+           AMOS GREENLER (1256628)
+           ADAN DOMBKOWSKI (1255500)
+           JOHNSON TAMBORLANE (1262058)
+           CONSUELO BERVER (1253966)
+           NICHOLLE LOUDERMILL (1258367)
+
+
+**********
+Day 3:
+**********
+
+10:00 AM:  MELONY TOMSKI arrived at the FSC Car Clean and immediately started Class WWV service.
+10:13 AM:  The car for MELONY TOMSKI is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 13 minutes
+           Total time: 13 minutes
+10:13 AM:  MELODIE KOPERSKI arrived at the FSC Car Clean and immediately started Class WW service.
+10:21 AM:  The car for MELODIE KOPERSKI is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+10:28 AM:  LIVIA AHNELL arrived at the FSC Car Clean and immediately started Class W service.
+10:33 AM:  The car for LIVIA AHNELL is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 5 minutes
+           Total time: 5 minutes
+10:37 AM:  LITA PADFIELD arrived at the FSC Car Clean and immediately started Class WWV service.
+10:37 AM:  YASMINE DELTORO arrived at the FSC Car Clean and entered Wash Queue.
+10:50 AM:  The car for LITA PADFIELD is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 13 minutes
+           Total time: 13 minutes
+10:50 AM:  YASMINE DELTORO has now started Class WW service.
+10:51 AM:  KATHYRN LEMPKE arrived at the FSC Car Clean and entered Wash Queue.
+10:58 AM:  The car for YASMINE DELTORO is now finished.
+           Waiting time in line: 13 minutes
+           Service time: 8 minutes
+           Total time: 21 minutes
+10:58 AM:  KATHYRN LEMPKE has now started Class WW service.
+11:01 AM:  EXIE GRILLO arrived at the FSC Car Clean and entered Wash Queue.
+11:06 AM:  The car for KATHYRN LEMPKE is now finished.
+           Waiting time in line: 7 minutes
+           Service time: 8 minutes
+           Total time: 15 minutes
+11:06 AM:  EXIE GRILLO has now started Class W service.
+11:10 AM:  DOMONIQUE CANUPP arrived at the FSC Car Clean and entered Wash Queue.
+11:11 AM:  The car for EXIE GRILLO is now finished.
+           Waiting time in line: 5 minutes
+           Service time: 5 minutes
+           Total time: 10 minutes
+11:11 AM:  DOMONIQUE CANUPP has now started Class WW service.
+11:19 AM:  The car for DOMONIQUE CANUPP is now finished.
+           Waiting time in line: 1 minutes
+           Service time: 8 minutes
+           Total time: 9 minutes
+11:25 AM:  MAXWELL OVERHULSER arrived at the FSC Car Clean and immediately started Class WWV service.
+11:25 AM:  JUANITA RUFO arrived at the FSC Car Clean and entered Wash Queue.
+11:38 AM:  The car for MAXWELL OVERHULSER is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 13 minutes
+           Total time: 13 minutes
+11:38 AM:  JUANITA RUFO has now started Class WW service.
+11:40 AM:  GEORGIANNA CERVENKA arrived at the FSC Car Clean and entered Wash Queue.
+11:46 AM:  The car for JUANITA RUFO is now finished.
+           Waiting time in line: 13 minutes
+           Service time: 8 minutes
+           Total time: 21 minutes
+11:46 AM:  GEORGIANNA CERVENKA has now started Class WWV service.
+11:56 AM:  ALLA ALMODOVAR arrived at the FSC Car Clean and entered Wash Queue.
+11:59 AM:  The car for GEORGIANNA CERVENKA is now finished.
+           Waiting time in line: 6 minutes
+           Service time: 13 minutes
+           Total time: 19 minutes
+11:59 AM:  ALLA ALMODOVAR has now started Class W service.
+12:04 PM:  The car for ALLA ALMODOVAR is now finished.
+           Waiting time in line: 3 minutes
+           Service time: 5 minutes
+           Total time: 8 minutes
+12:13 PM:  SAUL BUCEY arrived at the FSC Car Clean and immediately started Class WW service.
+12:21 PM:  The car for SAUL BUCEY is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+12:23 PM:  HELGA HODGKIN arrived at the FSC Car Clean and immediately started Class WW service.
+12:31 PM:  The car for HELGA HODGKIN is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+12:40 PM:  TAUNYA BURTT arrived at the FSC Car Clean and immediately started Class W service.
+12:40 PM:  VERONIKA PIPPENGER arrived at the FSC Car Clean and entered Wash Queue.
+12:45 PM:  The car for TAUNYA BURTT is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 5 minutes
+           Total time: 5 minutes
+12:45 PM:  VERONIKA PIPPENGER has now started Class W service.
+12:50 PM:  The car for VERONIKA PIPPENGER is now finished.
+           Waiting time in line: 5 minutes
+           Service time: 5 minutes
+           Total time: 10 minutes
+12:50 PM:  ARACELIS SITZE arrived at the FSC Car Clean and immediately started Class W service.
+12:55 PM:  The car for ARACELIS SITZE is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 5 minutes
+           Total time: 5 minutes
+ 1:07 PM:  CHARMAIN JOHLL arrived at the FSC Car Clean and immediately started Class W service.
+ 1:12 PM:  The car for CHARMAIN JOHLL is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 5 minutes
+           Total time: 5 minutes
+ 1:18 PM:  SACHA CONNELY arrived at the FSC Car Clean and immediately started Class WW service.
+ 1:26 PM:  The car for SACHA CONNELY is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+ 1:30 PM:  STANTON GARIVAY arrived at the FSC Car Clean and immediately started Class WW service.
+ 1:38 PM:  The car for STANTON GARIVAY is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+ 4:00 PM:  LOWLY Minion came and collected the following vouchers:
+           STANTON GARIVAY (1256316)
+           SACHA CONNELY (1254952)
+           CHARMAIN JOHLL (1257389)
+           ARACELIS SITZE (1261611)
+           VERONIKA PIPPENGER (1260206)
+           TAUNYA BURTT (1254472)
+           HELGA HODGKIN (1257137)
+           SAUL BUCEY (1254429)
+           ALLA ALMODOVAR (1253446)
+           GEORGIANNA CERVENKA (1254745)
+           JUANITA RUFO (1260924)
+           MAXWELL OVERHULSER (1259839)
+           DOMONIQUE CANUPP (1254581)
+           EXIE GRILLO (1256656)
+           KATHYRN LEMPKE (1258175)
+           YASMINE DELTORO (1255341)
+           LITA PADFIELD (1259845)
+           LIVIA AHNELL (1253363)
+           MELODIE KOPERSKI (1257763)
+           MELONY TOMSKI (1262286)
+
+
+**********
+Day 4:
+**********
+
+10:00 AM:  AMOS MIZUNO arrived at the FSC Car Clean and immediately started Class WW service.
+10:08 AM:  The car for AMOS MIZUNO is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+10:12 AM:  CAROLYN PUCCINI arrived at the FSC Car Clean and immediately started Class WWV service.
+10:22 AM:  SOILA ALAMEIDA arrived at the FSC Car Clean and entered Wash Queue.
+10:23 AM:  The car for CAROLYN PUCCINI is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 11 minutes
+           Total time: 11 minutes
+10:23 AM:  SOILA ALAMEIDA has now started Class W service.
+10:26 AM:  The car for SOILA ALAMEIDA is now finished.
+           Waiting time in line: 1 minutes
+           Service time: 3 minutes
+           Total time: 4 minutes
+10:33 AM:  MADELYN SKOK arrived at the FSC Car Clean and immediately started Class WW service.
+10:33 AM:  SPENCER FERDON arrived at the FSC Car Clean and entered Wash Queue.
+10:41 AM:  The car for MADELYN SKOK is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+10:41 AM:  SPENCER FERDON has now started Class W service.
+10:44 AM:  The car for SPENCER FERDON is now finished.
+           Waiting time in line: 8 minutes
+           Service time: 3 minutes
+           Total time: 11 minutes
+10:46 AM:  MARTH FROM arrived at the FSC Car Clean and immediately started Class WW service.
+10:54 AM:  The car for MARTH FROM is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 8 minutes
+           Total time: 8 minutes
+10:58 AM:  MARCELINO ROOSA arrived at the FSC Car Clean and immediately started Class WWV service.
+10:58 AM:  HUE LOOPER arrived at the FSC Car Clean and entered Wash Queue.
+10:58 AM:  TAMEKA GAFFER arrived at the FSC Car Clean and entered Wash Queue.
+11:08 AM:  VERDIE HARROP arrived at the FSC Car Clean and entered Wash Queue.
+11:09 AM:  The car for MARCELINO ROOSA is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 11 minutes
+           Total time: 11 minutes
+11:09 AM:  HUE LOOPER has now started Class WW service.
+11:17 AM:  The car for HUE LOOPER is now finished.
+           Waiting time in line: 11 minutes
+           Service time: 8 minutes
+           Total time: 19 minutes
+11:17 AM:  TAMEKA GAFFER has now started Class WW service.
+11:19 AM:  AMERICA VANNELLI arrived at the FSC Car Clean and entered Wash Queue.
+11:25 AM:  The car for TAMEKA GAFFER is now finished.
+           Waiting time in line: 19 minutes
+           Service time: 8 minutes
+           Total time: 27 minutes
+11:25 AM:  VERDIE HARROP has now started Class WW service.
+11:32 AM:  TAMERA BOKER arrived at the FSC Car Clean and entered Wash Queue.
+11:33 AM:  The car for VERDIE HARROP is now finished.
+           Waiting time in line: 17 minutes
+           Service time: 8 minutes
+           Total time: 25 minutes
+11:33 AM:  AMERICA VANNELLI has now started Class WW service.
+11:40 AM:  ESTEBAN POLLMAN arrived at the FSC Car Clean and entered Wash Queue.
+11:41 AM:  The car for AMERICA VANNELLI is now finished.
+           Waiting time in line: 14 minutes
+           Service time: 8 minutes
+           Total time: 22 minutes
+11:41 AM:  TAMERA BOKER has now started Class W service.
+11:44 AM:  The car for TAMERA BOKER is now finished.
+           Waiting time in line: 9 minutes
+           Service time: 3 minutes
+           Total time: 12 minutes
+11:44 AM:  ESTEBAN POLLMAN has now started Class W service.
+11:47 AM:  The car for ESTEBAN POLLMAN is now finished.
+           Waiting time in line: 4 minutes
+           Service time: 3 minutes
+           Total time: 7 minutes
+11:53 AM:  MONET LANDRON arrived at the FSC Car Clean and immediately started Class WWV service.
+12:00 PM:  KRISTIE KOWALLIS arrived at the FSC Car Clean and entered Wash Queue.
+12:04 PM:  The car for MONET LANDRON is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 11 minutes
+           Total time: 11 minutes
+12:04 PM:  KRISTIE KOWALLIS has now started Class W service.
+12:07 PM:  The car for KRISTIE KOWALLIS is now finished.
+           Waiting time in line: 4 minutes
+           Service time: 3 minutes
+           Total time: 7 minutes
+12:10 PM:  ALEXANDRIA DUNMIRE arrived at the FSC Car Clean and immediately started Class W service.
+12:13 PM:  The car for ALEXANDRIA DUNMIRE is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 3 minutes
+           Total time: 3 minutes
+12:23 PM:  DONNELL CHANIN arrived at the FSC Car Clean and immediately started Class W service.
+12:26 PM:  The car for DONNELL CHANIN is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 3 minutes
+           Total time: 3 minutes
+12:35 PM:  MARGARITE PALEVIC arrived at the FSC Car Clean and immediately started Class W service.
+12:38 PM:  The car for MARGARITE PALEVIC is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 3 minutes
+           Total time: 3 minutes
+12:42 PM:  EUGENIE EXTON arrived at the FSC Car Clean and immediately started Class WWV service.
+12:53 PM:  The car for EUGENIE EXTON is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 11 minutes
+           Total time: 11 minutes
+12:55 PM:  CLARENCE SIRKOCH arrived at the FSC Car Clean and immediately started Class W service.
+12:58 PM:  The car for CLARENCE SIRKOCH is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 3 minutes
+           Total time: 3 minutes
+ 1:08 PM:  KENDRICK TOYOTA arrived at the FSC Car Clean and immediately started Class W service.
+ 1:11 PM:  The car for KENDRICK TOYOTA is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 3 minutes
+           Total time: 3 minutes
+ 1:15 PM:  MARY PARRINELLO arrived at the FSC Car Clean and immediately started Class WWV service.
+ 1:25 PM:  DEVORAH GUNTERT arrived at the FSC Car Clean and entered Wash Queue.
+ 1:25 PM:  LOUIE CURLES arrived at the FSC Car Clean and entered Wash Queue.
+ 1:26 PM:  The car for MARY PARRINELLO is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 11 minutes
+           Total time: 11 minutes
+ 1:26 PM:  DEVORAH GUNTERT has now started Class WWV service.
+ 1:35 PM:  NENA CANARY arrived at the FSC Car Clean and entered Wash Queue.
+ 1:37 PM:  The car for DEVORAH GUNTERT is now finished.
+           Waiting time in line: 1 minutes
+           Service time: 11 minutes
+           Total time: 12 minutes
+ 1:37 PM:  LOUIE CURLES has now started Class WWV service.
+ 1:48 PM:  The car for LOUIE CURLES is now finished.
+           Waiting time in line: 12 minutes
+           Service time: 11 minutes
+           Total time: 23 minutes
+ 1:48 PM:  NENA CANARY has now started Class WW service.
+ 1:56 PM:  The car for NENA CANARY is now finished.
+           Waiting time in line: 13 minutes
+           Service time: 8 minutes
+           Total time: 21 minutes
+ 4:00 PM:  LOWLY Minion came and collected the following vouchers:
+           NENA CANARY (1254571)
+           LOUIE CURLES (1255131)
+           DEVORAH GUNTERT (1256760)
+           MARY PARRINELLO (1259918)
+           KENDRICK TOYOTA (1262320)
+           CLARENCE SIRKOCH (1261584)
+           EUGENIE EXTON (1255885)
+           MARGARITE PALEVIC (1259878)
+           DONNELL CHANIN (1254756)
+           ALEXANDRIA DUNMIRE (1255684)
+           KRISTIE KOWALLIS (1257814)
+           MONET LANDRON (1258035)
+           ESTEBAN POLLMAN (1260290)
+           TAMERA BOKER (1254143)
+           AMERICA VANNELLI (1262509)
+           VERDIE HARROP (1256947)
+           TAMEKA GAFFER (1256253)
+           HUE LOOPER (1258341)
+           MARCELINO ROOSA (1260869)
+           MARTH FROM (1256222)
+           SPENCER FERDON (1256005)
+           MADELYN SKOK (1261616)
+           SOILA ALAMEIDA (1253391)
+           CAROLYN PUCCINI (1260434)
+           AMOS MIZUNO (1259244)
+
+
+**********
+Day 5:
+**********
+
+10:06 AM:  SONYA KAAS arrived at the FSC Car Clean and immediately started Class W service.
+10:11 AM:  The car for SONYA KAAS is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 5 minutes
+           Total time: 5 minutes
+10:11 AM:  LEATHA MCMURPHY arrived at the FSC Car Clean and immediately started Class WW service.
+10:19 AM:  VICTORINA GOSSON arrived at the FSC Car Clean and entered Wash Queue.
+10:21 AM:  The car for LEATHA MCMURPHY is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 10 minutes
+           Total time: 10 minutes
+10:21 AM:  VICTORINA GOSSON has now started Class WW service.
+10:24 AM:  ELADIA HERSKOVIC arrived at the FSC Car Clean and entered Wash Queue.
+10:24 AM:  WENONA SIGONA arrived at the FSC Car Clean and entered Wash Queue.
+10:24 AM:  SAMARA DZURILLA arrived at the FSC Car Clean and entered Wash Queue.
+10:31 AM:  The car for VICTORINA GOSSON is now finished.
+           Waiting time in line: 2 minutes
+           Service time: 10 minutes
+           Total time: 12 minutes
+10:31 AM:  ELADIA HERSKOVIC has now started Class WWV service.
+10:33 AM:  MILO BEARD arrived at the FSC Car Clean and entered Wash Queue.
+10:39 AM:  OCIE HAGENBROK arrived at the FSC Car Clean and entered Wash Queue.
+10:39 AM:  ELISE MONTAG arrived at the FSC Car Clean and entered Wash Queue.
+10:39 AM:  ELFRIEDE TUCHMAN arrived at the FSC Car Clean and entered Wash Queue.
+10:39 AM:  SUZETTE AULS arrived at the FSC Car Clean and entered Wash Queue.
+10:46 AM:  The car for ELADIA HERSKOVIC is now finished.
+           Waiting time in line: 7 minutes
+           Service time: 15 minutes
+           Total time: 22 minutes
+10:46 AM:  WENONA SIGONA has now started Class WWV service.
+10:46 AM:  ONIE CLUBS arrived at the FSC Car Clean and entered Wash Queue.
+10:54 AM:  SUZY CADENAS arrived at the FSC Car Clean and entered Wash Queue.
+11:01 AM:  The car for WENONA SIGONA is now finished.
+           Waiting time in line: 22 minutes
+           Service time: 15 minutes
+           Total time: 37 minutes
+11:01 AM:  SAMARA DZURILLA has now started Class WWV service.
+11:03 AM:  GWEN KREISMAN arrived at the FSC Car Clean and entered Wash Queue.
+11:11 AM:  EMMITT CORLE arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+11:11 AM:  CLIFF FRANCISCUS arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+11:11 AM:  BEVERLEY LEEMOW arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+11:16 AM:  The car for SAMARA DZURILLA is now finished.
+           Waiting time in line: 37 minutes
+           Service time: 15 minutes
+           Total time: 52 minutes
+11:16 AM:  MILO BEARD has now started Class W service.
+11:18 AM:  KAMILAH MONN arrived at the FSC Car Clean and entered Wash Queue.
+11:21 AM:  The car for MILO BEARD is now finished.
+           Waiting time in line: 43 minutes
+           Service time: 5 minutes
+           Total time: 48 minutes
+11:21 AM:  OCIE HAGENBROK has now started Class W service.
+11:26 AM:  The car for OCIE HAGENBROK is now finished.
+           Waiting time in line: 42 minutes
+           Service time: 5 minutes
+           Total time: 47 minutes
+11:26 AM:  ELISE MONTAG has now started Class WW service.
+11:27 AM:  EDDIE DRAFTON arrived at the FSC Car Clean and entered Wash Queue.
+11:32 AM:  MIKKI BIERY arrived at the FSC Car Clean and entered Wash Queue.
+11:36 AM:  The car for ELISE MONTAG is now finished.
+           Waiting time in line: 47 minutes
+           Service time: 10 minutes
+           Total time: 57 minutes
+11:36 AM:  ELFRIEDE TUCHMAN has now started Class W service.
+11:40 AM:  ZENIA SMUTZ arrived at the FSC Car Clean and entered Wash Queue.
+11:40 AM:  SANDA HERNON arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+11:41 AM:  The car for ELFRIEDE TUCHMAN is now finished.
+           Waiting time in line: 57 minutes
+           Service time: 5 minutes
+           Total time: 62 minutes
+11:41 AM:  SUZETTE AULS has now started Class W service.
+11:46 AM:  The car for SUZETTE AULS is now finished.
+           Waiting time in line: 62 minutes
+           Service time: 5 minutes
+           Total time: 67 minutes
+11:46 AM:  ONIE CLUBS has now started Class WW service.
+11:47 AM:  JAUNITA TIPPEY arrived at the FSC Car Clean and entered Wash Queue.
+11:56 AM:  The car for ONIE CLUBS is now finished.
+           Waiting time in line: 60 minutes
+           Service time: 10 minutes
+           Total time: 70 minutes
+11:56 AM:  SUZY CADENAS has now started Class WWV service.
+11:56 AM:  ELLA HANMORE arrived at the FSC Car Clean and entered Wash Queue.
+12:05 PM:  TWANDA SALACH arrived at the FSC Car Clean and entered Wash Queue.
+12:11 PM:  The car for SUZY CADENAS is now finished.
+           Waiting time in line: 62 minutes
+           Service time: 15 minutes
+           Total time: 77 minutes
+12:11 PM:  GWEN KREISMAN has now started Class WW service.
+12:14 PM:  HANNA WILLMAN arrived at the FSC Car Clean and entered Wash Queue.
+12:21 PM:  The car for GWEN KREISMAN is now finished.
+           Waiting time in line: 68 minutes
+           Service time: 10 minutes
+           Total time: 78 minutes
+12:21 PM:  KAMILAH MONN has now started Class W service.
+12:21 PM:  ROCHEL BALLAGAS arrived at the FSC Car Clean and entered Wash Queue.
+12:26 PM:  The car for KAMILAH MONN is now finished.
+           Waiting time in line: 63 minutes
+           Service time: 5 minutes
+           Total time: 68 minutes
+12:26 PM:  EDDIE DRAFTON has now started Class W service.
+12:27 PM:  JEANNIE PAYER arrived at the FSC Car Clean and entered Wash Queue.
+12:31 PM:  The car for EDDIE DRAFTON is now finished.
+           Waiting time in line: 59 minutes
+           Service time: 5 minutes
+           Total time: 64 minutes
+12:31 PM:  MIKKI BIERY has now started Class WWV service.
+12:35 PM:  SUNDAY WALLACH arrived at the FSC Car Clean and entered Wash Queue.
+12:44 PM:  MADELEINE DENGEL arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+12:46 PM:  The car for MIKKI BIERY is now finished.
+           Waiting time in line: 59 minutes
+           Service time: 15 minutes
+           Total time: 74 minutes
+12:46 PM:  ZENIA SMUTZ has now started Class WWV service.
+12:49 PM:  SHERRON JAYE arrived at the FSC Car Clean and entered Wash Queue.
+12:54 PM:  YONG DILTHEY arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+ 1:01 PM:  The car for ZENIA SMUTZ is now finished.
+           Waiting time in line: 66 minutes
+           Service time: 15 minutes
+           Total time: 81 minutes
+ 1:01 PM:  JAUNITA TIPPEY has now started Class WWV service.
+ 1:01 PM:  GENNA STELLATO arrived at the FSC Car Clean and entered Wash Queue.
+ 1:01 PM:  CONSUELO WOOLFORD arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+ 1:07 PM:  ERNEST GROEBNER arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+ 1:16 PM:  The car for JAUNITA TIPPEY is now finished.
+           Waiting time in line: 74 minutes
+           Service time: 15 minutes
+           Total time: 89 minutes
+ 1:16 PM:  ELLA HANMORE has now started Class WWV service.
+ 1:31 PM:  The car for ELLA HANMORE is now finished.
+           Waiting time in line: 80 minutes
+           Service time: 15 minutes
+           Total time: 95 minutes
+ 1:31 PM:  TWANDA SALACH has now started Class W service.
+ 1:36 PM:  The car for TWANDA SALACH is now finished.
+           Waiting time in line: 86 minutes
+           Service time: 5 minutes
+           Total time: 91 minutes
+ 1:36 PM:  HANNA WILLMAN has now started Class WW service.
+ 1:46 PM:  The car for HANNA WILLMAN is now finished.
+           Waiting time in line: 82 minutes
+           Service time: 10 minutes
+           Total time: 92 minutes
+ 1:46 PM:  ROCHEL BALLAGAS has now started Class WWV service.
+ 2:01 PM:  The car for ROCHEL BALLAGAS is now finished.
+           Waiting time in line: 85 minutes
+           Service time: 15 minutes
+           Total time: 100 minutes
+ 2:01 PM:  JEANNIE PAYER has now started Class WW service.
+ 2:11 PM:  The car for JEANNIE PAYER is now finished.
+           Waiting time in line: 94 minutes
+           Service time: 10 minutes
+           Total time: 104 minutes
+ 2:11 PM:  SUNDAY WALLACH has now started Class W service.
+ 2:16 PM:  The car for SUNDAY WALLACH is now finished.
+           Waiting time in line: 96 minutes
+           Service time: 5 minutes
+           Total time: 101 minutes
+ 2:16 PM:  SHERRON JAYE has now started Class W service.
+ 2:21 PM:  The car for SHERRON JAYE is now finished.
+           Waiting time in line: 87 minutes
+           Service time: 5 minutes
+           Total time: 92 minutes
+ 2:21 PM:  GENNA STELLATO has now started Class WWV service.
+ 2:36 PM:  The car for GENNA STELLATO is now finished.
+           Waiting time in line: 80 minutes
+           Service time: 15 minutes
+           Total time: 95 minutes
+ 4:00 PM:  LOWLY Minion came and collected the following vouchers:
+           GENNA STELLATO (1261824)
+           SHERRON JAYE (1257330)
+           SUNDAY WALLACH (1262700)
+           JEANNIE PAYER (1259974)
+           ROCHEL BALLAGAS (1253642)
+           HANNA WILLMAN (1262869)
+           TWANDA SALACH (1261022)
+           ELLA HANMORE (1256877)
+           JAUNITA TIPPEY (1262247)
+           ZENIA SMUTZ (1261657)
+           MIKKI BIERY (1254013)
+           EDDIE DRAFTON (1255583)
+           KAMILAH MONN (1259297)
+           GWEN KREISMAN (1257850)
+           SUZY CADENAS (1254513)
+           ONIE CLUBS (1254873)
+           SUZETTE AULS (1253592)
+           ELFRIEDE TUCHMAN (1262428)
+           ELISE MONTAG (1259311)
+           OCIE HAGENBROK (1256797)
+           MILO BEARD (1253798)
+           SAMARA DZURILLA (1255693)
+           WENONA SIGONA (1261548)
+           ELADIA HERSKOVIC (1257086)
+           VICTORINA GOSSON (1256567)
+           LEATHA MCMURPHY (1259058)
+           SONYA KAAS (1257415)
+
+
+**********
+Day 6:
+**********
+
+10:06 AM:  BRANDY LANZI arrived at the FSC Car Clean and immediately started Class WWV service.
+10:13 AM:  VERNELL LEMPE arrived at the FSC Car Clean and entered Wash Queue.
+10:20 AM:  ZONIA AGRESTA arrived at the FSC Car Clean and entered Wash Queue.
+10:21 AM:  The car for BRANDY LANZI is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 15 minutes
+           Total time: 15 minutes
+10:21 AM:  VERNELL LEMPE has now started Class WWV service.
+10:28 AM:  GARRETT SUDER arrived at the FSC Car Clean and entered Wash Queue.
+10:36 AM:  The car for VERNELL LEMPE is now finished.
+           Waiting time in line: 8 minutes
+           Service time: 15 minutes
+           Total time: 23 minutes
+10:36 AM:  ZONIA AGRESTA has now started Class WW service.
+10:37 AM:  DANYEL SCHNARR arrived at the FSC Car Clean and entered Wash Queue.
+10:43 AM:  MAC HILDMAN arrived at the FSC Car Clean and entered Wash Queue.
+10:46 AM:  The car for ZONIA AGRESTA is now finished.
+           Waiting time in line: 16 minutes
+           Service time: 10 minutes
+           Total time: 26 minutes
+10:46 AM:  GARRETT SUDER has now started Class WWV service.
+10:50 AM:  SHANTEL KIESEL arrived at the FSC Car Clean and entered Wash Queue.
+10:56 AM:  CHRISTENA SCHUCKER arrived at the FSC Car Clean and entered Wash Queue.
+11:01 AM:  The car for GARRETT SUDER is now finished.
+           Waiting time in line: 18 minutes
+           Service time: 15 minutes
+           Total time: 33 minutes
+11:01 AM:  DANYEL SCHNARR has now started Class WW service.
+11:02 AM:  SUZANNA RIVLIN arrived at the FSC Car Clean and entered Wash Queue.
+11:09 AM:  SHAROLYN LAZZELL arrived at the FSC Car Clean and entered Wash Queue.
+11:11 AM:  The car for DANYEL SCHNARR is now finished.
+           Waiting time in line: 24 minutes
+           Service time: 10 minutes
+           Total time: 34 minutes
+11:11 AM:  MAC HILDMAN has now started Class W service.
+11:14 AM:  ANABEL ALCINA arrived at the FSC Car Clean and entered Wash Queue.
+11:16 AM:  The car for MAC HILDMAN is now finished.
+           Waiting time in line: 28 minutes
+           Service time: 5 minutes
+           Total time: 33 minutes
+11:16 AM:  SHANTEL KIESEL has now started Class W service.
+11:19 AM:  STEWART PETOSA arrived at the FSC Car Clean and entered Wash Queue.
+11:21 AM:  The car for SHANTEL KIESEL is now finished.
+           Waiting time in line: 26 minutes
+           Service time: 5 minutes
+           Total time: 31 minutes
+11:21 AM:  CHRISTENA SCHUCKER has now started Class WWV service.
+11:27 AM:  OUIDA TANOUS arrived at the FSC Car Clean and entered Wash Queue.
+11:33 AM:  DORA BOSTIAN arrived at the FSC Car Clean and entered Wash Queue.
+11:36 AM:  The car for CHRISTENA SCHUCKER is now finished.
+           Waiting time in line: 25 minutes
+           Service time: 15 minutes
+           Total time: 40 minutes
+11:36 AM:  SUZANNA RIVLIN has now started Class W service.
+11:39 AM:  KASSIE TORELLI arrived at the FSC Car Clean and entered Wash Queue.
+11:41 AM:  The car for SUZANNA RIVLIN is now finished.
+           Waiting time in line: 34 minutes
+           Service time: 5 minutes
+           Total time: 39 minutes
+11:41 AM:  SHAROLYN LAZZELL has now started Class WWV service.
+11:46 AM:  ELISA CANDLER arrived at the FSC Car Clean and entered Wash Queue.
+11:54 AM:  JAN DELAIR arrived at the FSC Car Clean and entered Wash Queue.
+11:56 AM:  The car for SHAROLYN LAZZELL is now finished.
+           Waiting time in line: 32 minutes
+           Service time: 15 minutes
+           Total time: 47 minutes
+11:56 AM:  ANABEL ALCINA has now started Class WWV service.
+11:59 AM:  CONSTANCE LOPZE arrived at the FSC Car Clean and entered Wash Queue.
+12:04 PM:  FRANSISCA VANVELDHUIZE arrived at the FSC Car Clean and entered Wash Queue.
+12:10 PM:  JESSICA DANE arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+12:10 PM:  VAN DAWN arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+12:11 PM:  The car for ANABEL ALCINA is now finished.
+           Waiting time in line: 42 minutes
+           Service time: 15 minutes
+           Total time: 57 minutes
+12:11 PM:  STEWART PETOSA has now started Class WW service.
+12:17 PM:  MICHIKO TRAUTMAN arrived at the FSC Car Clean and entered Wash Queue.
+12:21 PM:  The car for STEWART PETOSA is now finished.
+           Waiting time in line: 52 minutes
+           Service time: 10 minutes
+           Total time: 62 minutes
+12:21 PM:  OUIDA TANOUS has now started Class W service.
+12:26 PM:  The car for OUIDA TANOUS is now finished.
+           Waiting time in line: 54 minutes
+           Service time: 5 minutes
+           Total time: 59 minutes
+12:26 PM:  DORA BOSTIAN has now started Class WW service.
+12:26 PM:  ALESHIA ONSTOTT arrived at the FSC Car Clean and entered Wash Queue.
+12:26 PM:  HUNTER OLIVAREZ arrived at the FSC Car Clean and entered Wash Queue.
+12:32 PM:  LORIS CURELLA arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+12:36 PM:  The car for DORA BOSTIAN is now finished.
+           Waiting time in line: 53 minutes
+           Service time: 10 minutes
+           Total time: 63 minutes
+12:36 PM:  KASSIE TORELLI has now started Class WW service.
+12:39 PM:  JULIANNA GRUSENMEYER arrived at the FSC Car Clean and entered Wash Queue.
+12:46 PM:  The car for KASSIE TORELLI is now finished.
+           Waiting time in line: 57 minutes
+           Service time: 10 minutes
+           Total time: 67 minutes
+12:46 PM:  ELISA CANDLER has now started Class W service.
+12:46 PM:  ESTHER AHMADI arrived at the FSC Car Clean and entered Wash Queue.
+12:51 PM:  The car for ELISA CANDLER is now finished.
+           Waiting time in line: 60 minutes
+           Service time: 5 minutes
+           Total time: 65 minutes
+12:51 PM:  JAN DELAIR has now started Class WW service.
+12:51 PM:  VIOLETA GARREN arrived at the FSC Car Clean and entered Wash Queue.
+12:56 PM:  JANETTA DEJES arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+12:56 PM:  SALVADOR GERARDOT arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+12:56 PM:  CLARENCE FRIEST arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+ 1:01 PM:  The car for JAN DELAIR is now finished.
+           Waiting time in line: 57 minutes
+           Service time: 10 minutes
+           Total time: 67 minutes
+ 1:01 PM:  CONSTANCE LOPZE has now started Class WW service.
+ 1:05 PM:  CARLENA MARTINI arrived at the FSC Car Clean and entered Wash Queue.
+ 1:10 PM:  NORENE FRANCESKI arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+ 1:11 PM:  The car for CONSTANCE LOPZE is now finished.
+           Waiting time in line: 62 minutes
+           Service time: 10 minutes
+           Total time: 72 minutes
+ 1:11 PM:  FRANSISCA VANVELDHUIZE has now started Class W service.
+ 1:16 PM:  The car for FRANSISCA VANVELDHUIZE is now finished.
+           Waiting time in line: 67 minutes
+           Service time: 5 minutes
+           Total time: 72 minutes
+ 1:16 PM:  MICHIKO TRAUTMAN has now started Class W service.
+ 1:21 PM:  The car for MICHIKO TRAUTMAN is now finished.
+           Waiting time in line: 59 minutes
+           Service time: 5 minutes
+           Total time: 64 minutes
+ 1:21 PM:  ALESHIA ONSTOTT has now started Class WWV service.
+ 1:36 PM:  The car for ALESHIA ONSTOTT is now finished.
+           Waiting time in line: 55 minutes
+           Service time: 15 minutes
+           Total time: 70 minutes
+ 1:36 PM:  HUNTER OLIVAREZ has now started Class WW service.
+ 1:46 PM:  The car for HUNTER OLIVAREZ is now finished.
+           Waiting time in line: 70 minutes
+           Service time: 10 minutes
+           Total time: 80 minutes
+ 1:46 PM:  JULIANNA GRUSENMEYER has now started Class WWV service.
+ 2:01 PM:  The car for JULIANNA GRUSENMEYER is now finished.
+           Waiting time in line: 67 minutes
+           Service time: 15 minutes
+           Total time: 82 minutes
+ 2:01 PM:  ESTHER AHMADI has now started Class WWV service.
+ 2:16 PM:  The car for ESTHER AHMADI is now finished.
+           Waiting time in line: 75 minutes
+           Service time: 15 minutes
+           Total time: 90 minutes
+ 2:16 PM:  VIOLETA GARREN has now started Class W service.
+ 2:21 PM:  The car for VIOLETA GARREN is now finished.
+           Waiting time in line: 85 minutes
+           Service time: 5 minutes
+           Total time: 90 minutes
+ 2:21 PM:  CARLENA MARTINI has now started Class WWV service.
+ 2:36 PM:  The car for CARLENA MARTINI is now finished.
+           Waiting time in line: 76 minutes
+           Service time: 15 minutes
+           Total time: 91 minutes
+ 4:00 PM:  LOWLY Minion came and collected the following vouchers:
+           CARLENA MARTINI (1258784)
+           VIOLETA GARREN (1256322)
+           ESTHER AHMADI (1253359)
+           JULIANNA GRUSENMEYER (1256701)
+           HUNTER OLIVAREZ (1259717)
+           ALESHIA ONSTOTT (1259750)
+           MICHIKO TRAUTMAN (1262356)
+           FRANSISCA VANVELDHUIZE (1262521)
+           CONSTANCE LOPZE (1258343)
+           JAN DELAIR (1255320)
+           ELISA CANDLER (1254576)
+           KASSIE TORELLI (1262305)
+           DORA BOSTIAN (1254209)
+           OUIDA TANOUS (1262072)
+           STEWART PETOSA (1260049)
+           ANABEL ALCINA (1253395)
+           SHAROLYN LAZZELL (1258111)
+           SUZANNA RIVLIN (1260746)
+           CHRISTENA SCHUCKER (1261270)
+           SHANTEL KIESEL (1257654)
+           MAC HILDMAN (1257110)
+           DANYEL SCHNARR (1261222)
+           GARRETT SUDER (1261948)
+           ZONIA AGRESTA (1253354)
+           VERNELL LEMPE (1258174)
+           BRANDY LANZI (1258058)
+
+
+**********
+Day 7:
+**********
+
+10:05 AM:  BRIAN SCHMIDBAUER arrived at the FSC Car Clean and immediately started Class WW service.
+10:13 AM:  TIFANY ESSERY arrived at the FSC Car Clean and entered Wash Queue.
+10:14 AM:  The car for BRIAN SCHMIDBAUER is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 9 minutes
+           Total time: 9 minutes
+10:14 AM:  TIFANY ESSERY has now started Class W service.
+10:19 AM:  The car for TIFANY ESSERY is now finished.
+           Waiting time in line: 1 minutes
+           Service time: 5 minutes
+           Total time: 6 minutes
+10:19 AM:  LAVON RAMPTON arrived at the FSC Car Clean and immediately started Class WWV service.
+10:25 AM:  ALLA TUASON arrived at the FSC Car Clean and entered Wash Queue.
+10:25 AM:  MINNA BOKOR arrived at the FSC Car Clean and entered Wash Queue.
+10:30 AM:  VALARIE ZUMOT arrived at the FSC Car Clean and entered Wash Queue.
+10:33 AM:  The car for LAVON RAMPTON is now finished.
+           Waiting time in line: 0 minutes
+           Service time: 14 minutes
+           Total time: 14 minutes
+10:33 AM:  ALLA TUASON has now started Class WWV service.
+10:37 AM:  MARQUETTA GLEAVES arrived at the FSC Car Clean and entered Wash Queue.
+10:45 AM:  CLARINE SARY arrived at the FSC Car Clean and entered Wash Queue.
+10:45 AM:  CALANDRA KENNEMORE arrived at the FSC Car Clean and entered Wash Queue.
+10:47 AM:  The car for ALLA TUASON is now finished.
+           Waiting time in line: 8 minutes
+           Service time: 14 minutes
+           Total time: 22 minutes
+10:47 AM:  MINNA BOKOR has now started Class WWV service.
+10:53 AM:  LUCIANA CRUTHIRD arrived at the FSC Car Clean and entered Wash Queue.
+11:01 AM:  The car for MINNA BOKOR is now finished.
+           Waiting time in line: 22 minutes
+           Service time: 14 minutes
+           Total time: 36 minutes
+11:01 AM:  VALARIE ZUMOT has now started Class W service.
+11:02 AM:  CARRIE SAENZ arrived at the FSC Car Clean and entered Wash Queue.
+11:06 AM:  The car for VALARIE ZUMOT is now finished.
+           Waiting time in line: 31 minutes
+           Service time: 5 minutes
+           Total time: 36 minutes
+11:06 AM:  MARQUETTA GLEAVES has now started Class WWV service.
+11:11 AM:  MARCENE TENNENT arrived at the FSC Car Clean and entered Wash Queue.
+11:16 AM:  LAURA LUEVANO arrived at the FSC Car Clean and entered Wash Queue.
+11:20 AM:  The car for MARQUETTA GLEAVES is now finished.
+           Waiting time in line: 29 minutes
+           Service time: 14 minutes
+           Total time: 43 minutes
+11:20 AM:  CLARINE SARY has now started Class WW service.
+11:21 AM:  JAVIER VOTRAW arrived at the FSC Car Clean and entered Wash Queue.
+11:29 AM:  The car for CLARINE SARY is now finished.
+           Waiting time in line: 35 minutes
+           Service time: 9 minutes
+           Total time: 44 minutes
+11:29 AM:  CALANDRA KENNEMORE has now started Class W service.
+11:29 AM:  VICTOR JANSSON arrived at the FSC Car Clean and entered Wash Queue.
+11:34 AM:  The car for CALANDRA KENNEMORE is now finished.
+           Waiting time in line: 44 minutes
+           Service time: 5 minutes
+           Total time: 49 minutes
+11:34 AM:  LUCIANA CRUTHIRD has now started Class W service.
+11:34 AM:  FREDERICA CHANT arrived at the FSC Car Clean and entered Wash Queue.
+11:39 AM:  The car for LUCIANA CRUTHIRD is now finished.
+           Waiting time in line: 41 minutes
+           Service time: 5 minutes
+           Total time: 46 minutes
+11:39 AM:  CARRIE SAENZ has now started Class W service.
+11:39 AM:  JOHNSIE MOYERS arrived at the FSC Car Clean and entered Wash Queue.
+11:44 AM:  The car for CARRIE SAENZ is now finished.
+           Waiting time in line: 37 minutes
+           Service time: 5 minutes
+           Total time: 42 minutes
+11:44 AM:  MARCENE TENNENT has now started Class W service.
+11:44 AM:  LAURIE TIMLIN arrived at the FSC Car Clean and entered Wash Queue.
+11:44 AM:  REATHA DARRINGTON arrived at the FSC Car Clean and entered Wash Queue.
+11:49 AM:  The car for MARCENE TENNENT is now finished.
+           Waiting time in line: 33 minutes
+           Service time: 5 minutes
+           Total time: 38 minutes
+11:49 AM:  LAURA LUEVANO has now started Class W service.
+11:51 AM:  WENDELL ESCHBAUGH arrived at the FSC Car Clean and entered Wash Queue.
+11:51 AM:  MARQUERITE ZILLMAN arrived at the FSC Car Clean and entered Wash Queue.
+11:54 AM:  The car for LAURA LUEVANO is now finished.
+           Waiting time in line: 33 minutes
+           Service time: 5 minutes
+           Total time: 38 minutes
+11:54 AM:  JAVIER VOTRAW has now started Class WW service.
+11:56 AM:  ADELL CALLANDER arrived at the FSC Car Clean and entered Wash Queue.
+12:03 PM:  The car for JAVIER VOTRAW is now finished.
+           Waiting time in line: 33 minutes
+           Service time: 9 minutes
+           Total time: 42 minutes
+12:03 PM:  VICTOR JANSSON has now started Class WW service.
+12:04 PM:  CAROLYNN SANGER arrived at the FSC Car Clean and entered Wash Queue.
+12:11 PM:  TERRENCE HUGUS arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+12:12 PM:  The car for VICTOR JANSSON is now finished.
+           Waiting time in line: 34 minutes
+           Service time: 9 minutes
+           Total time: 43 minutes
+12:12 PM:  FREDERICA CHANT has now started Class W service.
+12:17 PM:  The car for FREDERICA CHANT is now finished.
+           Waiting time in line: 38 minutes
+           Service time: 5 minutes
+           Total time: 43 minutes
+12:17 PM:  JOHNSIE MOYERS has now started Class WWV service.
+12:18 PM:  SHANI ESCHENBRENNER arrived at the FSC Car Clean and entered Wash Queue.
+12:26 PM:  CHRISTENA RASMUSSON arrived at the FSC Car Clean and entered Wash Queue.
+12:31 PM:  The car for JOHNSIE MOYERS is now finished.
+           Waiting time in line: 38 minutes
+           Service time: 14 minutes
+           Total time: 52 minutes
+12:31 PM:  LAURIE TIMLIN has now started Class WW service.
+12:32 PM:  CHANDRA SNIDER arrived at the FSC Car Clean and entered Wash Queue.
+12:40 PM:  The car for LAURIE TIMLIN is now finished.
+           Waiting time in line: 47 minutes
+           Service time: 9 minutes
+           Total time: 56 minutes
+12:40 PM:  REATHA DARRINGTON has now started Class WWV service.
+12:41 PM:  LAVELLE STREITMATTER arrived at the FSC Car Clean and entered Wash Queue.
+12:48 PM:  GORDON NAPUTI arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+12:54 PM:  The car for REATHA DARRINGTON is now finished.
+           Waiting time in line: 56 minutes
+           Service time: 14 minutes
+           Total time: 70 minutes
+12:54 PM:  WENDELL ESCHBAUGH has now started Class WW service.
+12:57 PM:  LUIS KUHTZ arrived at the FSC Car Clean and entered Wash Queue.
+ 1:02 PM:  KENNITH MCCLEAVE arrived at the FSC Car Clean. Unfortunately, the Wash Queue is full, and the customer left disappointed.
+ 1:03 PM:  The car for WENDELL ESCHBAUGH is now finished.
+           Waiting time in line: 63 minutes
+           Service time: 9 minutes
+           Total time: 72 minutes
+ 1:03 PM:  MARQUERITE ZILLMAN has now started Class W service.
+ 1:08 PM:  The car for MARQUERITE ZILLMAN is now finished.
+           Waiting time in line: 72 minutes
+           Service time: 5 minutes
+           Total time: 77 minutes
+ 1:08 PM:  ADELL CALLANDER has now started Class WW service.
+ 1:10 PM:  CARSON TEDROW arrived at the FSC Car Clean and entered Wash Queue.
+ 1:17 PM:  The car for ADELL CALLANDER is now finished.
+           Waiting time in line: 72 minutes
+           Service time: 9 minutes
+           Total time: 81 minutes
+ 1:17 PM:  CAROLYNN SANGER has now started Class W service.
+ 1:22 PM:  The car for CAROLYNN SANGER is now finished.
+           Waiting time in line: 73 minutes
+           Service time: 5 minutes
+           Total time: 78 minutes
+ 1:22 PM:  SHANI ESCHENBRENNER has now started Class WWV service.
+ 1:36 PM:  The car for SHANI ESCHENBRENNER is now finished.
+           Waiting time in line: 64 minutes
+           Service time: 14 minutes
+           Total time: 78 minutes
+ 1:36 PM:  CHRISTENA RASMUSSON has now started Class W service.
+ 1:41 PM:  The car for CHRISTENA RASMUSSON is now finished.
+           Waiting time in line: 70 minutes
+           Service time: 5 minutes
+           Total time: 75 minutes
+ 1:41 PM:  CHANDRA SNIDER has now started Class WW service.
+ 1:50 PM:  The car for CHANDRA SNIDER is now finished.
+           Waiting time in line: 69 minutes
+           Service time: 9 minutes
+           Total time: 78 minutes
+ 1:50 PM:  LAVELLE STREITMATTER has now started Class WWV service.
+ 2:04 PM:  The car for LAVELLE STREITMATTER is now finished.
+           Waiting time in line: 69 minutes
+           Service time: 14 minutes
+           Total time: 83 minutes
+ 2:04 PM:  LUIS KUHTZ has now started Class WW service.
+ 2:13 PM:  The car for LUIS KUHTZ is now finished.
+           Waiting time in line: 67 minutes
+           Service time: 9 minutes
+           Total time: 76 minutes
+ 2:13 PM:  CARSON TEDROW has now started Class WWV service.
+ 2:27 PM:  The car for CARSON TEDROW is now finished.
+           Waiting time in line: 63 minutes
+           Service time: 14 minutes
+           Total time: 77 minutes
+ 4:00 PM:  LOWLY Minion came and collected the following vouchers:
+           CARSON TEDROW (1262113)
+           LUIS KUHTZ (1257925)
+           LAVELLE STREITMATTER (1261898)
+           CHANDRA SNIDER (1261669)
+           CHRISTENA RASMUSSON (1260524)
+           SHANI ESCHENBRENNER (1255827)
+           CAROLYNN SANGER (1261063)
+           ADELL CALLANDER (1254541)
+           MARQUERITE ZILLMAN (1263154)
+           WENDELL ESCHBAUGH (1255822)
+           REATHA DARRINGTON (1255211)
+           LAURIE TIMLIN (1262237)
+           JOHNSIE MOYERS (1259382)
+           FREDERICA CHANT (1254758)
+           VICTOR JANSSON (1257319)
+           JAVIER VOTRAW (1262666)
+           LAURA LUEVANO (1258396)
+           MARCENE TENNENT (1262114)
+           CARRIE SAENZ (1261008)
+           LUCIANA CRUTHIRD (1255101)
+           CALANDRA KENNEMORE (1257571)
+           CLARINE SARY (1261105)
+           MARQUETTA GLEAVES (1256484)
+           VALARIE ZUMOT (1263167)
+           MINNA BOKOR (1254145)
+           ALLA TUASON (1262412)
+           LAVON RAMPTON (1260490)
+           TIFANY ESSERY (1255865)
+           BRIAN SCHMIDBAUER (1261219)
+
+
