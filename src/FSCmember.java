@@ -81,5 +81,14 @@ public class FSCmember {
 	public void setMinutesRemaining(int minutesRemaining) {
 		this.minutesRemaining = minutesRemaining;
 	}
+
+	public FSCmember getNext() {
+		return next;
+	}
+
+	public void setNext(FSCmember next) {
+		this.next = next;
+	}
+
 	//endregion
 }

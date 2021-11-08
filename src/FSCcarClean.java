@@ -1,5 +1,4 @@
-import java.util.*;
-import java.io.*;
+import java.util.Scanner;
 
 public class FSCcarClean {
 
@@ -29,6 +28,12 @@ public class FSCcarClean {
 
         do {
 
-        } while(numDaysSimulated < numDays);
+        } while (numDaysSimulated < numDays);
     }
+
+    public static void addCar() {
+
+    }
+
+
 }
