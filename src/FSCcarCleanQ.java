@@ -3,12 +3,9 @@ public class FSCcarCleanQ {
 	FSCmember back;
 	int numCustomers;
 
-	public FSCcarCleanQ(FSCmember front, FSCmember back) {
-		this.front = front;
-		this.back = back;
-	}
-
 	public FSCcarCleanQ() {
+		this.front = null;
+		this.back = null;
 	}
 
 	public boolean isEmpty() {

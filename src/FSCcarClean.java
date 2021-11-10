@@ -14,7 +14,6 @@ public class FSCcarClean {
         int maxQueueSize = Integer.parseInt(maxQueueSizeString);
 
 
-
         String numDaysString = in.nextLine();
         int numDays = Integer.parseInt(numDaysString);
         int numDaysSimulated = 0;
@@ -32,29 +31,30 @@ public class FSCcarClean {
 
         do {
             FSCcarCleanQ custQueue = new FSCcarCleanQ();
+            FSCmember newCustomer = addNewCustomer(in, timeForWash, timeForWax, timeForVacuum);
+            custQueue.enqueue(newCustomer);
             while (totalMinutes < 361 || !custQueue.isEmpty()) {
-                if (totalMinutes) {
 
-                }
-                String[] nextCustomer = in.nextLine().split(" ");
-                int arrivalTime = Integer.parseInt(nextCustomer[0]);
 
-                int ID = Integer.parseInt(nextCustomer[1]);
-                String firstName = nextCustomer[2];
-                String lastName = nextCustomer[3];
-                String servicesRequested = nextCustomer[4];
-                int minutesRemaining = computeMinutesRemaining(servicesRequested, timeForWash, timeForWax, timeForVacuum);
-
-                FSCvoucher customerVoucher = new FSCvoucher(arrivalTime, ID, firstName, lastName, servicesRequested,
-                        minutesRemaining);
-
+                totalMinutes++;
             }
 
         } while (numDaysSimulated < numDays);
     }
 
-    public static void addCar() {
+    public static FSCmember addNewCustomer(Scanner in, int timeForWash, int timeForWax, int timeForVacuum) {
+        String[] nextCustomer = in.nextLine().split(" ");
+        int arrivalTime = Integer.parseInt(nextCustomer[0]);
 
+        int ID = Integer.parseInt(nextCustomer[1]);
+        String firstName = nextCustomer[2];
+        String lastName = nextCustomer[3];
+        String servicesRequested = nextCustomer[4];
+        int minutesRemaining = computeMinutesRemaining(servicesRequested, timeForWash, timeForWax, timeForVacuum);
+
+        FSCmember customerVoucher = new FSCmember(arrivalTime, 0, ID, firstName, lastName, servicesRequested,
+                minutesRemaining);
+        return customerVoucher;
     }
 
     public static int computeMinutesRemaining(String servicesRequested, int timeForWash, int timeForWax, int timeForVacuum) {
