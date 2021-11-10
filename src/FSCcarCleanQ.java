@@ -1,7 +1,7 @@
 public class FSCcarCleanQ {
 	FSCmember front;
 	FSCmember back;
-	int numCustomers;
+	static int numCustomers;
 	int maxSize;
 
 	public FSCcarCleanQ() {
