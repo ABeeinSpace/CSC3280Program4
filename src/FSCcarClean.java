@@ -29,8 +29,9 @@ public class FSCcarClean {
 
         int numCustomers = in.nextInt();
 
-        FSCcarCleanQ custQueue = new FSCcarCleanQ();
-        FSCcarCleanQ outsideLine = new FSCcarCleanQ();
+        FSCcarCleanQ custQueue = new FSCcarCleanQ(maxQueueSize);
+        FSCcarCleanQ outsideLine = setupOutsideLine(in, numCustomers);
+
         FSCvouchers vouchersStack = new FSCvouchers();
 
         in.nextLine(); // Consuming a hanging newline here to avoid possible unexpected behavior from the scanner.
@@ -40,49 +41,44 @@ public class FSCcarClean {
             System.out.printf("**********\n");
             System.out.printf("Day %d:", numDaysSimulated);
             System.out.printf("**********\n");
-//            FSCmember firstCustomer = addNewCustomer(in, timeForWash, timeForWax, timeForVacuum);
-//            custQueue.enqueue(firstCustomer); // Adding the first customer here to avoid by
-            while (totalMinutes < 361 || !custQueue.isEmpty()) {
-                if (!custQueue.isEmpty() && custQueue.peek().isServiceCompleted()) {
-                    custQueue.dequeque(); //Departures are to be processed first if an arrival and departure occur in
-                    // the same minute, so that's what this if statement is designed to facilitate.
+
+            while (totalMinutes < 361 && !custQueue.isEmpty() && !outsideLine.isEmpty()) {
+                if (customerBeingServiced.isServiceCompleted()) {
+                    customerBeingServiced = custQueue.dequeque(); //Departures are to be processed first if an arrival
+                    // and departure occur in the same minute, so that's what this line is designed to facilitate.
                 }
 
                 if (custQueue.isEmpty()) {
-                    FSCmember newCustomer = addNewCustomer(in, timeForWash, timeForWax, timeForVacuum); //If the
-                    // customer queue is empty, new arrivals are allowed to bypass the queue and go straight into the
-                    // service station
-                    //TODO: Print a special variation on the arrival message here
+                    if (totalMinutes == outsideLine.peek().getArrivalTime()) ;
+                    customerBeingServiced = outsideLine.dequeque();
                 }
-                FSCmember newCustomer = addNewCustomer(in, timeForWash, timeForWax, timeForVacuum);
-                custQueue.enqueue(newCustomer);
-                custQueue.peek().setMinutesRemaining(custQueue.peek().getMinutesRemaining() - 1);
-                // If the queue is
+                // If the queue is NOT empty, we need to add any customers that come in to the queue
                 if (custQueue.peek().isServiceCompleted()) {
                     custQueue.dequeque();
                 }
                 totalMinutes++;
             }
-
+            numDaysSimulated++;
         } while (numDaysSimulated < numDays);
     }
 
-    public static FSCmember addNewCustomer(Scanner in, int timeForWash, int timeForWax, int timeForVacuum) {
-        String[] nextCustomer = in.nextLine().split(" ");
-        int arrivalTime = Integer.parseInt(nextCustomer[0]);
+    public static FSCcarCleanQ setupOutsideLine(Scanner in, int numCustomers, int timeForWash, int timeForWax,
+                                                int timeForVacuum) {
+        FSCcarCleanQ outsideLine = new FSCcarCleanQ();
+        for (int i = 0; i < numCustomers; i++) {
+            String[] nextCustomer = in.nextLine().split(" ");
+            int arrivalTime = Integer.parseInt(nextCustomer[0]);
 
-        int ID = Integer.parseInt(nextCustomer[1]);
-        String firstName = nextCustomer[2];
-        String lastName = nextCustomer[3];
-        String servicesRequested = nextCustomer[4];
-        int minutesRemaining = computeMinutesRemaining(servicesRequested, timeForWash, timeForWax, timeForVacuum);
+            int ID = Integer.parseInt(nextCustomer[1]);
+            String firstName = nextCustomer[2];
+            String lastName = nextCustomer[3];
+            String servicesRequested = nextCustomer[4];
+            FSCmember customer = new FSCmember(arrivalTime, ID, firstName, lastName, servicesRequested,
+                    computeMinutesRemaining(servicesRequested, timeForWash, timeForWax, timeForVacuum));
 
-        FSCmember customerVoucher = new FSCmember(arrivalTime, ID, firstName, lastName, servicesRequested,
-                minutesRemaining);
-        System.out.printf("");
-        return customerVoucher;
+        }
+        return outsideLine;
     }
-
     public static int computeMinutesRemaining(String servicesRequested, int timeForWash, int timeForWax, int timeForVacuum) {
         if (servicesRequested.equals("W")) {
             return timeForWash;

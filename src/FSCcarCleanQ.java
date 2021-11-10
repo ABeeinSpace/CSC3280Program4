@@ -2,10 +2,17 @@ public class FSCcarCleanQ {
 	FSCmember front;
 	FSCmember back;
 	int numCustomers;
+	int maxSize;
 
 	public FSCcarCleanQ() {
 		this.front = null;
 		this.back = null;
+	}
+
+	public FSCcarCleanQ(int maxSize) {
+		this.front = null;
+		this.back = null;
+		this.maxSize = maxSize;
 	}
 
 	public boolean isEmpty() {
