@@ -27,25 +27,30 @@ public class FSCcarClean {
 
         int totalMinutes = 0;
 
-        int numCustomers = in.nextInt();
+        in.nextLine();
+        String numCustomersString = in.nextLine();
+        int numCustomers = Integer.parseInt(numCustomersString);
 
         FSCcarCleanQ custQueue = new FSCcarCleanQ(maxQueueSize);
-        FSCcarCleanQ outsideLine = setupOutsideLine(in, numCustomers);
 
         FSCvouchers vouchersStack = new FSCvouchers();
 
-        in.nextLine(); // Consuming a hanging newline here to avoid possible unexpected behavior from the scanner.
+//        in.nextLine(); // Consuming a hanging newline here to avoid possible unexpected behavior from the scanner.
         //endregion
 
         do {
             System.out.printf("**********\n");
-            System.out.printf("Day %d:", numDaysSimulated);
+            System.out.printf("Day %d:\n", numDaysSimulated + 1);
             System.out.printf("**********\n");
+            FSCcarCleanQ outsideLine = setupOutsideLine(in, numCustomers, timeForWash, timeForWax, timeForVacuum);
+            FSCmember customerBeingServiced = outsideLine.dequeque();
+            for (int i = 0; i < 361; i++) {
+                System.out.println(i);
 
-            while (totalMinutes < 361 && !custQueue.isEmpty() && !outsideLine.isEmpty()) {
                 if (customerBeingServiced.isServiceCompleted()) {
                     customerBeingServiced = custQueue.dequeque(); //Departures are to be processed first if an arrival
                     // and departure occur in the same minute, so that's what this line is designed to facilitate.
+
                 }
 
                 if (custQueue.isEmpty()) {
@@ -56,7 +61,6 @@ public class FSCcarClean {
                 if (custQueue.peek().isServiceCompleted()) {
                     custQueue.dequeque();
                 }
-                totalMinutes++;
             }
             numDaysSimulated++;
         } while (numDaysSimulated < numDays);
