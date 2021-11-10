@@ -9,7 +9,7 @@ public class FSCcarClean {
     * green button */
     public static void main(String[] args) {
 
-        //region Before Sim Start Setup
+        //region Before Sim Setup
         Scanner in = new Scanner(System.in);
 
         String maxQueueSizeString = in.nextLine();
@@ -31,16 +31,33 @@ public class FSCcarClean {
 
         FSCcarCleanQ custQueue = new FSCcarCleanQ();
         FSCcarCleanQ outsideLine = new FSCcarCleanQ();
+        FSCvouchers vouchersStack = new FSCvouchers();
 
         in.nextLine(); // Consuming a hanging newline here to avoid possible unexpected behavior from the scanner.
         //endregion
 
         do {
-            FSCmember newCustomer = addNewCustomer(in, timeForWash, timeForWax, timeForVacuum);
-            custQueue.enqueue(newCustomer);
+            System.out.printf("**********\n");
+            System.out.printf("Day %d:", numDaysSimulated);
+            System.out.printf("**********\n");
+//            FSCmember firstCustomer = addNewCustomer(in, timeForWash, timeForWax, timeForVacuum);
+//            custQueue.enqueue(firstCustomer); // Adding the first customer here to avoid by
             while (totalMinutes < 361 || !custQueue.isEmpty()) {
+                if (!custQueue.isEmpty() && custQueue.peek().isServiceCompleted()) {
+                    custQueue.dequeque(); //Departures are to be processed first if an arrival and departure occur in
+                    // the same minute, so that's what this if statement is designed to facilitate.
+                }
 
+                if (custQueue.isEmpty()) {
+                    FSCmember newCustomer = addNewCustomer(in, timeForWash, timeForWax, timeForVacuum); //If the
+                    // customer queue is empty, new arrivals are allowed to bypass the queue and go straight into the
+                    // service station
+                    //TODO: Print a special variation on the arrival message here
+                }
+                FSCmember newCustomer = addNewCustomer(in, timeForWash, timeForWax, timeForVacuum);
+                custQueue.enqueue(newCustomer);
                 custQueue.peek().setMinutesRemaining(custQueue.peek().getMinutesRemaining() - 1);
+                // If the queue is
                 if (custQueue.peek().isServiceCompleted()) {
                     custQueue.dequeque();
                 }
@@ -62,6 +79,7 @@ public class FSCcarClean {
 
         FSCmember customerVoucher = new FSCmember(arrivalTime, ID, firstName, lastName, servicesRequested,
                 minutesRemaining);
+        System.out.printf("");
         return customerVoucher;
     }
 
