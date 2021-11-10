@@ -10,14 +10,13 @@ public class FSCvoucher {
 
 
 	//region Constructors
-	public FSCvoucher(int arrivalTime, int ID, String firstName, String lastName, String code, int timeStarted, int timeFinished) {
+	public FSCvoucher(int arrivalTime, int ID, String firstName, String lastName, String code, int timeStarted) {
 		this.arrivalTime = arrivalTime;
 		this.ID = ID;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.code = code;
 		this.timeStarted = timeStarted;
-		this.timeFinished = timeFinished;
 	}
 
 	public FSCvoucher() {
