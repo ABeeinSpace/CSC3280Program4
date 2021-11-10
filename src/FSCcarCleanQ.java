@@ -88,12 +88,8 @@ public class FSCcarCleanQ {
 		return front;
 	}
 
-	public String peek() {
-		// Invoke the peek method with front as a parameter
-		String frontValue = peek(front);
-
-		// return topValue
-		return frontValue;
+	public FSCmember peek() {
+		return front;
 	}
 
 	private String peek(FSCmember front) {

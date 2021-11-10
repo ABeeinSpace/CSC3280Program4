@@ -10,9 +10,8 @@ public class FSCmember {
 
 
 	//region Constructors
-	public FSCmember(int arrivalTime, int timeStarted, int ID, String firstName, String lastName, String code, int minutesRemaining) {
+	public FSCmember(int arrivalTime, int ID, String firstName, String lastName, String code, int minutesRemaining) {
 		this.arrivalTime = arrivalTime;
-		this.timeStarted = timeStarted;
 		this.ID = ID;
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -80,6 +79,10 @@ public class FSCmember {
 
 	public void setMinutesRemaining(int minutesRemaining) {
 		this.minutesRemaining = minutesRemaining;
+	}
+
+	public boolean isServiceCompleted() {
+		return (minutesRemaining == 0);
 	}
 
 	public FSCmember getNext() {

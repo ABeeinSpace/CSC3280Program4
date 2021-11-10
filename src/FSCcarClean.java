@@ -8,6 +8,8 @@ public class FSCcarClean {
     * Description: Core method for program execution. Java will run this method automatically when we press the big
     * green button */
     public static void main(String[] args) {
+
+        //region Before Sim Start Setup
         Scanner in = new Scanner(System.in);
 
         String maxQueueSizeString = in.nextLine();
@@ -27,15 +29,21 @@ public class FSCcarClean {
 
         int numCustomers = in.nextInt();
 
+        FSCcarCleanQ custQueue = new FSCcarCleanQ();
+        FSCcarCleanQ outsideLine = new FSCcarCleanQ();
+
         in.nextLine(); // Consuming a hanging newline here to avoid possible unexpected behavior from the scanner.
+        //endregion
 
         do {
-            FSCcarCleanQ custQueue = new FSCcarCleanQ();
             FSCmember newCustomer = addNewCustomer(in, timeForWash, timeForWax, timeForVacuum);
             custQueue.enqueue(newCustomer);
             while (totalMinutes < 361 || !custQueue.isEmpty()) {
 
-
+                custQueue.peek().setMinutesRemaining(custQueue.peek().getMinutesRemaining() - 1);
+                if (custQueue.peek().isServiceCompleted()) {
+                    custQueue.dequeque();
+                }
                 totalMinutes++;
             }
 
@@ -52,7 +60,7 @@ public class FSCcarClean {
         String servicesRequested = nextCustomer[4];
         int minutesRemaining = computeMinutesRemaining(servicesRequested, timeForWash, timeForWax, timeForVacuum);
 
-        FSCmember customerVoucher = new FSCmember(arrivalTime, 0, ID, firstName, lastName, servicesRequested,
+        FSCmember customerVoucher = new FSCmember(arrivalTime, ID, firstName, lastName, servicesRequested,
                 minutesRemaining);
         return customerVoucher;
     }
