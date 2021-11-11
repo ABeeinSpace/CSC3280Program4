@@ -50,11 +50,10 @@ public class FSCcarClean {
                 if (customerBeingServiced.isServiceCompleted()) {
                     customerBeingServiced = custQueue.dequeque(); //Departures are to be processed first if an arrival
                     // and departure occur in the same minute, so that's what this line is designed to facilitate.
-
                 }
 
                 if (custQueue.isEmpty()) {
-                    if (totalMinutes == outsideLine.peek().getArrivalTime()) ;
+                    if (totalMinutes == outsideLine.peek().getArrivalTime());
                     customerBeingServiced = outsideLine.dequeque();
                 }
                 // If the queue is NOT empty, we need to add any customers that come in to the queue
@@ -79,7 +78,6 @@ public class FSCcarClean {
             String servicesRequested = nextCustomer[4];
             FSCmember customer = new FSCmember(arrivalTime, ID, firstName, lastName, servicesRequested,
                     computeMinutesRemaining(servicesRequested, timeForWash, timeForWax, timeForVacuum));
-
         }
         return outsideLine;
     }
