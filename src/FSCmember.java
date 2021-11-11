@@ -7,6 +7,7 @@ public class FSCmember {
 	String code;
 	int minutesRemaining;
 	FSCmember next;
+	boolean didFinishWork;
 
 
 	//region Constructors
@@ -17,6 +18,7 @@ public class FSCmember {
 		this.lastName = lastName;
 		this.code = code;
 		this.minutesRemaining = minutesRemaining;
+		didFinishWork = false;
 	}
 
 	public FSCmember() {
@@ -94,4 +96,20 @@ public class FSCmember {
 	}
 
 	//endregion
+
+
+	@Override
+	public String toString() {
+		return "FSCmember{" +
+				"arrivalTime=" + arrivalTime +
+				", timeStarted=" + timeStarted +
+				", ID=" + ID +
+				", firstName='" + firstName + '\'' +
+				", lastName='" + lastName + '\'' +
+				", code='" + code + '\'' +
+				", minutesRemaining=" + minutesRemaining +
+				", next=" + next +
+				", didFinishWork=" + didFinishWork +
+				'}';
+	}
 }

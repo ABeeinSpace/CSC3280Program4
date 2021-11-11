@@ -20,16 +20,8 @@ public class FSCcarClean {
         int numDays = Integer.parseInt(numDaysString);
         int numDaysSimulated = 0;
 
-
-        int timeForWash = in.nextInt();
-        int timeForWax = in.nextInt();
-        int timeForVacuum = in.nextInt();
-
         int totalMinutes = 0;
 
-        in.nextLine();
-        String numCustomersString = in.nextLine();
-        int numCustomers = Integer.parseInt(numCustomersString);
 
         FSCcarCleanQ custQueue = new FSCcarCleanQ(maxQueueSize);
 
@@ -39,27 +31,49 @@ public class FSCcarClean {
         //endregion
 
         do {
+            int timeForWash = in.nextInt();
+            int timeForWax = in.nextInt();
+            int timeForVacuum = in.nextInt();
+            in.nextLine();
+
+            String numCustomersString = in.nextLine();
+            int numCustomers = Integer.parseInt(numCustomersString);
+
             System.out.printf("**********\n");
             System.out.printf("Day %d:\n", numDaysSimulated + 1);
-            System.out.printf("**********\n");
+            System.out.printf("********** shit\n");
+
             FSCcarCleanQ outsideLine = setupOutsideLine(in, numCustomers, timeForWash, timeForWax, timeForVacuum);
             FSCmember customerBeingServiced = outsideLine.dequeque();
             for (int i = 0; i < 361; i++) {
                 System.out.println(i);
 
-                if (customerBeingServiced.isServiceCompleted()) {
-                    customerBeingServiced = custQueue.dequeque(); //Departures are to be processed first if an arrival
-                    // and departure occur in the same minute, so that's what this line is designed to facilitate.
+                if (outsideLine.peek() != null) {
+                    if (customerBeingServiced.getMinutesRemaining() == 0) {
+                        if (i == outsideLine.peek().getArrivalTime() && custQueue.isEmpty()) {
+                            customerBeingServiced = outsideLine.dequeque();
+                            System.out.printf("%s %s arrived at the FSC Car Clean and immediately started Class %s " +
+                                    "service", customerBeingServiced.getFirstName(),
+                                    customerBeingServiced.getLastName(), customerBeingServiced.getCode());
+                        } else if (!custQueue.isEmpty()) {
+                            customerBeingServiced = custQueue.dequeque();
+                            customerBeingServiced.setTimeStarted(i);
+                            System.out.println("Started work on new cust from waiting queue");
+                        }
+                    }
+
+                    if (i == outsideLine.peek().getArrivalTime()) {
+                        custQueue.enqueue(outsideLine.dequeque());
+                        System.out.println("Added new cust to waiting queue");
+                    }
+
+
                 }
 
-                if (custQueue.isEmpty()) {
-                    if (totalMinutes == outsideLine.peek().getArrivalTime());
-                    customerBeingServiced = outsideLine.dequeque();
+                if (customerBeingServiced.getMinutesRemaining() != 0) {
+                    customerBeingServiced.setMinutesRemaining(customerBeingServiced.getMinutesRemaining() - 1);
                 }
-                // If the queue is NOT empty, we need to add any customers that come in to the queue
-                if (custQueue.peek().isServiceCompleted()) {
-                    custQueue.dequeque();
-                }
+
             }
             numDaysSimulated++;
         } while (numDaysSimulated < numDays);
@@ -78,6 +92,7 @@ public class FSCcarClean {
             String servicesRequested = nextCustomer[4];
             FSCmember customer = new FSCmember(arrivalTime, ID, firstName, lastName, servicesRequested,
                     computeMinutesRemaining(servicesRequested, timeForWash, timeForWax, timeForVacuum));
+            outsideLine.enqueue(customer);
         }
         return outsideLine;
     }
@@ -94,3 +109,6 @@ public class FSCcarClean {
 
 
 }
+
+
+
