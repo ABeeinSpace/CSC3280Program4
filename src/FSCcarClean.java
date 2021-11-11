@@ -50,7 +50,7 @@ public class FSCcarClean {
 
             System.out.printf("**********\n");
             System.out.printf("Day %d:\n", numDaysSimulated + 1);
-            System.out.printf("********** shit\n");
+            System.out.printf("**********\n");
 
             FSCcarCleanQ outsideLine = setupOutsideLine(in, numCustomers, timeForWash, timeForWax, timeForVacuum);
             FSCmember customerBeingServiced = outsideLine.dequeque();
@@ -89,7 +89,7 @@ public class FSCcarClean {
     }
 
     public static FSCcarCleanQ setupOutsideLine(Scanner in, int numCustomers, int timeForWash, int timeForWax,
-                                                int timeForVacuum, FSCvouchers suck) {
+                                                int timeForVacuum) {
         FSCcarCleanQ outsideLine = new FSCcarCleanQ();
         for (int i = 0; i < numCustomers; i++) {
             String[] nextCustomer = in.nextLine().split(" ");
@@ -101,8 +101,6 @@ public class FSCcarClean {
             String servicesRequested = nextCustomer[4];
             FSCmember customer = new FSCmember(arrivalTime, ID, firstName, lastName, servicesRequested,
                     computeMinutesRemaining(servicesRequested, timeForWash, timeForWax, timeForVacuum));
-            FSCvoucher customerVoucher = new FSCvoucher(arrivalTime, ID, firstName, lastName, servicesRequested, 0);
-            suck.push(customerVoucher);
 
             outsideLine.enqueue(customer);
         }
