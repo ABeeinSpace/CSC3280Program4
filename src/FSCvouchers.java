@@ -37,7 +37,7 @@ public class FSCvouchers {
 	}
 
 	public void push(FSCvoucher newVoucher) {
-		stack[top++] = newVoucher;
+		this.stack[top++] = newVoucher;
 	}
 
 	public boolean search(int value) {
