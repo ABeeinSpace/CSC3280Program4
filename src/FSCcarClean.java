@@ -1,12 +1,21 @@
+/*
+ Aidan Border
+ 11/10/2021
+ CSC 3280
+ Honor Code: I will practice academic and personal integrity and excellence of character and expect the same from
+ others
+*/
+
+
 import java.util.Scanner;
 
 public class FSCcarClean {
 
     /*Main()
-    * Parameters: String[] args
-    * Returns: N/A (main() never returns anything)
-    * Description: Core method for program execution. Java will run this method automatically when we press the big
-    * green button */
+     * Parameters: String[] args
+     * Returns: N/A (main() never returns anything)
+     * Description: Core method for program execution. Java will run this method automatically when we press the big
+     * green button */
     public static void main(String[] args) {
 
         //region Before Sim Setup
@@ -96,6 +105,7 @@ public class FSCcarClean {
         }
         return outsideLine;
     }
+
     public static int computeMinutesRemaining(String servicesRequested, int timeForWash, int timeForWax, int timeForVacuum) {
         if (servicesRequested.equals("W")) {
             return timeForWash;

@@ -1,3 +1,11 @@
+/*
+ Aidan Border
+ 11/10/2021
+ CSC 3280
+ Honor Code: I will practice academic and personal integrity and excellence of character and expect the same from
+ others
+*/
+
 public class FSCcarCleanQ {
 	FSCmember front;
 	FSCmember back;
