@@ -13,7 +13,8 @@ public class FSCvouchers {
 
 	public FSCvouchers(int size) {
 		maxSize = size;
-		stack = new FSCvoucher[maxSize];
+		this.stack = new FSCvoucher[maxSize];
+		top = -1;
 	}
 
 	public FSCvouchers() {
@@ -29,7 +30,7 @@ public class FSCvouchers {
 	}
 
 	public FSCvoucher pop() {
-		return stack[top--];
+		return stack[top - 1];
 	}
 
 	public FSCvoucher peek() {
@@ -37,7 +38,7 @@ public class FSCvouchers {
 	}
 
 	public void push(FSCvoucher newVoucher) {
-		this.stack[top++] = newVoucher;
+		this.stack[++top] = newVoucher;
 	}
 
 	public boolean search(int value) {
@@ -50,11 +51,17 @@ public class FSCvouchers {
 		return false;
 	}
 
-	public void PrintStack() {
+	public void printStack() {
 		for (int i = 0; i <= top; i++) {
-			System.out.print(stack[i] + ", ");
+			System.out.print(stack[i]);
 		}
 		// print a newline
 		System.out.println();
+	}
+
+	public void clearStack() {
+		for (int i = 0; i <= top; i++) {
+			stack[i] = null;
+		}
 	}
 }

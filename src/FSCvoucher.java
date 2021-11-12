@@ -18,13 +18,13 @@ public class FSCvoucher {
 
 
 	//region Constructors
-	public FSCvoucher(int arrivalTime, int ID, String firstName, String lastName, String code, int timeStarted) {
+	public FSCvoucher(int arrivalTime, int ID, String firstName, String lastName, String code) {
 		this.arrivalTime = arrivalTime;
 		this.ID = ID;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.code = code;
-		this.timeStarted = timeStarted;
+//		this.timeStarted = timeStarted;
 	}
 
 	public FSCvoucher() {
@@ -88,4 +88,19 @@ public class FSCvoucher {
 		this.timeFinished = timeFinished;
 	}
 	//endregion
+
+	public String printFinishedMessage() {
+		String output = String.format("The car for %s %s is now finished.\n" +
+				"           Waiting time in line: %d minutes\n" +
+				"           Service time: %d minutes\n" +
+				"           Total time: %d minutes", firstName, lastName, arrivalTime - timeStarted,
+				timeFinished - timeStarted,
+				(arrivalTime - timeStarted) + (timeFinished - timeStarted));
+		return output;
+	}
+
+	@Override
+	public String toString() {
+		return String.format("           %s %s (%s)\n", firstName, lastName, code);
+	}
 }

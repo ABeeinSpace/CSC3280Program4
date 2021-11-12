@@ -9,7 +9,7 @@
 public class FSCcarCleanQ {
 	FSCmember front;
 	FSCmember back;
-	static int numCustomers;
+	int numCustomers;
 	int maxSize;
 
 	public FSCcarCleanQ() {
@@ -37,7 +37,7 @@ public class FSCcarCleanQ {
 		// Traverse to correct insertion point
 		while (helpPtr != null) {
 			// Print the data value of the node
-			System.out.print(helpPtr + ", ");
+			System.out.print(helpPtr.toString());
 			// Step one node over
 			helpPtr = helpPtr.getNext();
 		}
@@ -93,6 +93,7 @@ public class FSCcarCleanQ {
 	public FSCmember dequeque() {
 		FSCmember temp = front;
 		front = dequeue(front);
+		temp.next = null;
 		if (front == null)
 			back = null;
 		return temp;
@@ -100,8 +101,11 @@ public class FSCcarCleanQ {
 
 	private FSCmember dequeue(FSCmember front) {
 		front = front.getNext();
+		numCustomers--;
 		return front;
 	}
+
+
 
 	public FSCmember peek() {
 		return front;

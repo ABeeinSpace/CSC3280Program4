@@ -104,20 +104,4 @@ public class FSCmember {
 	}
 
 	//endregion
-
-
-	@Override
-	public String toString() {
-		return "FSCmember{" +
-				"arrivalTime=" + arrivalTime +
-				", timeStarted=" + timeStarted +
-				", ID=" + ID +
-				", firstName='" + firstName + '\'' +
-				", lastName='" + lastName + '\'' +
-				", code='" + code + '\'' +
-				", minutesRemaining=" + minutesRemaining +
-				", next=" + next +
-				", didFinishWork=" + didFinishWork +
-				'}';
-	}
 }
