@@ -89,11 +89,11 @@ public class FSCvoucher {
 	}
 	//endregion
 
-	public String printFinishedMessage() {
-		String output = String.format("The car for %s %s is now finished.\n" +
+	public String printFinishedMessage(String currentTime) {
+		String output = String.format("%s  The car for %s %s is now finished.\n" +
 				"           Waiting time in line: %d minutes\n" +
 				"           Service time: %d minutes\n" +
-				"           Total time: %d minutes", firstName, lastName, arrivalTime - timeStarted,
+				"           Total time: %d minutes", currentTime, firstName, lastName, arrivalTime - timeStarted,
 				timeFinished - timeStarted,
 				(arrivalTime - timeStarted) + (timeFinished - timeStarted));
 		return output;
