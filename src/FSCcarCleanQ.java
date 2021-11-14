@@ -1,4 +1,5 @@
 /*
+ USING LATE PASS
  Aidan Border
  11/10/2021
  CSC 3280
@@ -7,10 +8,10 @@
 */
 
 public class FSCcarCleanQ {
-	FSCmember front;
-	FSCmember back;
-	int numCustomers;
-	int maxSize;
+	private FSCmember front;
+	private FSCmember back;
+	private int numCustomers;
+	private int maxSize;
 
 	public FSCcarCleanQ() {
 		this.front = null;
@@ -93,27 +94,31 @@ public class FSCcarCleanQ {
 	public FSCmember dequeque() {
 		FSCmember temp = front;
 		front = dequeue(front);
-		temp.next = null;
+		temp.setNext(null);
 		if (front == null)
 			back = null;
 		return temp;
 	}
 
+	/*Pairs with the public method up there^*/
 	private FSCmember dequeue(FSCmember front) {
 		front = front.getNext();
 		numCustomers--;
 		return front;
 	}
 
-
-
 	public FSCmember peek() {
 		return front;
 	}
 
+	/*Pairs up with the public peek method up there ^*/
 	private String peek(FSCmember front) {
 		// Return the data value of the front node.
 		// You can see that we do NOT dequeue. We are only returning the data value.
 		return front.toString();
+	}
+
+	public int getNumCustomers() {
+		return numCustomers;
 	}
 }

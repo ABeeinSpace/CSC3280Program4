@@ -1,4 +1,5 @@
 /*
+ USING LATE PASS
  Aidan Border
  11/10/2021
  CSC 3280
@@ -7,14 +8,14 @@
 */
 
 public class FSCmember {
-	int arrivalTime;
-	int timeStarted;
-	int ID;
-	String firstName;
-	String lastName;
-	String code;
-	int minutesRemaining;
-	FSCmember next;
+	private int arrivalTime;
+	private int timeStarted;
+	private int ID;
+	private String firstName;
+	private String lastName;
+	private String code;
+	private int minutesRemaining;
+	private FSCmember next;
 	boolean didFinishWork;
 
 
@@ -29,12 +30,15 @@ public class FSCmember {
 		didFinishWork = false;
 	}
 
+	/*Empty constructor for completeness' sake.*/
 	public FSCmember() {
 	}
 	//endregion
 
 
 	//region Getters and Setters
+	/*GetArrivalTime()
+	* */
 	public int getArrivalTime() {
 		return arrivalTime;
 	}

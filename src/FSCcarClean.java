@@ -1,13 +1,13 @@
 /*
+ USING LATE PASS
  Aidan Border
  11/10/2021
  CSC 3280
  Honor Code: I will practice academic and personal integrity and excellence of character and expect the same from
  others
+ 99
 */
 
-
-import java.util.Objects;
 import java.util.Scanner;
 
 public class FSCcarClean {
@@ -49,7 +49,7 @@ public class FSCcarClean {
             String numCustomersString = in.nextLine();
             int numCustomers = Integer.parseInt(numCustomersString);
 
-            FSCvouchers vouchersStack = new FSCvouchers(numCustomers + 2);
+            FSCvouchers vouchersStack = new FSCvouchers(numCustomers + 20);
 
             System.out.printf("**********\n");
             System.out.printf("Day %d:\n", numDaysSimulated + 1);
@@ -66,10 +66,10 @@ public class FSCcarClean {
                     computeCurrentTime(customerBeingServiced.getArrivalTime()), customerBeingServiced.getFirstName(),
                     customerBeingServiced.getLastName(), customerBeingServiced.getCode());
             custQueue.enqueue(customerBeingServiced);
-            FSCvoucher customerVoucher = new FSCvoucher(customerBeingServiced.arrivalTime,
-                    customerBeingServiced.ID, customerBeingServiced.firstName,
-                    customerBeingServiced.lastName,
-                    customerBeingServiced.code);
+            FSCvoucher customerVoucher = new FSCvoucher(customerBeingServiced.getArrivalTime(),
+                    customerBeingServiced.getID(), customerBeingServiced.getFirstName(),
+                    customerBeingServiced.getLastName(),
+                    customerBeingServiced.getCode());
             vouchersStack.push(customerVoucher);
             customerVoucher.setTimeStarted(customerBeingServiced.getArrivalTime());
             numMinutes = customerVoucher.getArrivalTime();
@@ -91,7 +91,7 @@ public class FSCcarClean {
 
                         if (numMinutes == outsideLine.peek().getArrivalTime() && custQueue.isEmpty()) {
                             customerBeingServiced = outsideLine.dequeque();
-                            if (customerBeingServiced.code.equals("Z")) {
+                            if (customerBeingServiced.getCode().equals("Z")) {
                                 minionActions(vouchersStack, numMinutes);
                             }
                             System.out.printf("%s  %s %s arrived at the FSC Car Clean and immediately started Class " +
@@ -99,24 +99,29 @@ public class FSCcarClean {
                                             " " +
                                     "service\n", computeCurrentTime(numMinutes), customerBeingServiced.getFirstName(),
                                     customerBeingServiced.getLastName(), customerBeingServiced.getCode());
-                            customerVoucher = new FSCvoucher(customerBeingServiced.arrivalTime,
-                                    customerBeingServiced.ID, customerBeingServiced.firstName,
-                                    customerBeingServiced.lastName,
-                                    customerBeingServiced.code);
+                            customerVoucher = new FSCvoucher(customerBeingServiced.getArrivalTime(),
+                                    customerBeingServiced.getID(), customerBeingServiced.getFirstName(),
+                                    customerBeingServiced.getLastName(),
+                                    customerBeingServiced.getCode());
                             vouchersStack.push(customerVoucher);
                             customerBeingServiced.setTimeStarted(numMinutes);
                             vouchersStack.peek().setTimeStarted(numMinutes);
                         } else if (!custQueue.isEmpty()) {
                             customerBeingServiced = custQueue.dequeque();
+                            if (customerBeingServiced.getCode().equals("Z")) {
+                                minionActions(vouchersStack, numMinutes);
+                                numMinutes++;
+                                continue;
+                            }
                             customerBeingServiced.setTimeStarted(numMinutes);
                             System.out.printf("%s  %s %s has started class %s service\n",
                                     computeCurrentTime(numMinutes),
                                     customerBeingServiced.getFirstName(), customerBeingServiced.getLastName(),
                                     customerBeingServiced.getCode());
-                            customerVoucher = new FSCvoucher(customerBeingServiced.arrivalTime,
-                                    customerBeingServiced.ID, customerBeingServiced.firstName,
-                                    customerBeingServiced.lastName,
-                                    customerBeingServiced.code);
+                            customerVoucher = new FSCvoucher(customerBeingServiced.getArrivalTime(),
+                                    customerBeingServiced.getID(), customerBeingServiced.getFirstName(),
+                                    customerBeingServiced.getLastName(),
+                                    customerBeingServiced.getCode());
                             vouchersStack.push(customerVoucher);
                         }
                     }
@@ -134,7 +139,7 @@ public class FSCcarClean {
                                 cust.setArrivalTime(numMinutes);
                             }
                         }
-                        if (custQueue.numCustomers + 1 >= maxQueueSize) {
+                        if (custQueue.getNumCustomers() + 1 >= maxQueueSize) {
                             System.out.printf("%s  %s %s arrived at the FSC Car Clean. Unfortunately, the Wash Queue " +
                                     "is " +
                                     "full, and the customer left disappointed.\n", computeCurrentTime(numMinutes),
@@ -149,7 +154,7 @@ public class FSCcarClean {
                             while(outsideLine.peek() != null && numMinutes == outsideLine.peek().getArrivalTime()) {
                                 cust = outsideLine.dequeque();
                                 custQueue.enqueue(cust);
-                                System.out.printf("%s  %s %s arrived at the FSC Car Clean and was placed into the " +
+                                System.out.printf("%s %s %s arrived at the FSC Car Clean and was placed into the " +
                                                 "Wash Queue\n", computeCurrentTime(numMinutes),
                                         custQueue.peek().getFirstName(), custQueue.peek().getLastName());
                                 cust.setArrivalTime(numMinutes);
@@ -175,17 +180,25 @@ public class FSCcarClean {
     }
 
 
+    /* minionActions()
+     * Parameters: FSCvouchers voucherStack, int numMinutes
+     * Returns: N/A ()
+     * Description: Simulates the actions of the Lowly Minion*/
     public static void minionActions(FSCvouchers voucherStack, int numMinutes) {
-        if (voucherStack.isEmpty()) {
+        if (voucherStack.isEmpty() || voucherStack.peek() == null) {
             System.out.println(computeCurrentTime(numMinutes) + "  LOWLY Minion came but found the box empty");
             return;
         }
-        System.out.println(computeCurrentTime(numMinutes) + "  LOWLY minion came and collected the following " +
+        System.out.println(computeCurrentTime(numMinutes) + "  LOWLY Minion came and collected the following " +
                 "vouchers:");
         voucherStack.printStack();
         voucherStack.clearStack();
     }
 
+    /* setupOutsideLine()
+     * Parameters: Scanner in, int numCustomers, int timeForWash, int timeForWax, int timeForVacuum
+     * Returns: An FSCcarCleanQ object
+     * Description: Setup for the Outside Line before each program run*/
     public static FSCcarCleanQ setupOutsideLine(Scanner in, int numCustomers, int timeForWash, int timeForWax,
                                                 int timeForVacuum) {
         FSCcarCleanQ outsideLine = new FSCcarCleanQ();
@@ -204,19 +217,37 @@ public class FSCcarClean {
         return outsideLine;
     }
 
+    /* computeCurrentTime()
+     * Parameters: int numMinutesElapsed
+     * Returns: String (main() never returns anything)
+     * Description: This method performs some Math Silliness to get the current time in HH:mm for output */
     public static String computeCurrentTime(int numMinutesElapsed) {
         int numHours = numMinutesElapsed / 60;
         int numMinutes = numMinutesElapsed % 60;
+        String numMinutesString = String.format("%d", numMinutes);
         String currentTime;
-        if (numHours > 2) {
-            currentTime = String.format("%2d:0%1d PM:", numHours + 10, numMinutes);
+
+        if (numHours >= 2) {
+            if (numMinutesString.length() == 1) {
+                currentTime = String.format("%2d:0%1d PM:", numHours + 10, numMinutes);
+            } else {
+                currentTime = String.format("%2d:%2d PM:", numHours + 10, numMinutes);
+            }
         } else {
-            currentTime = String.format("%2d:%1d AM:", numHours + 10, numMinutes);
+            if (numMinutesString.length() == 1) {
+                currentTime = String.format("%2d:0%1d AM:", numHours + 10, numMinutes);
+            } else {
+                currentTime = String.format("%2d:%1d AM:", numHours + 10, numMinutes);
+            }
         }
 
         return currentTime;
     }
 
+    /* computeMinutesRemaining()
+     * Parameters: String[] args
+     * Returns: N/A (main() never returns anything)
+     * Description: This method computes how much time is needed for each car */
     public static int computeMinutesRemaining(String servicesRequested, int timeForWash, int timeForWax, int timeForVacuum) {
         if (servicesRequested.equals("W")) {
             return timeForWash;
@@ -230,6 +261,3 @@ public class FSCcarClean {
 
 
 }
-
-
-

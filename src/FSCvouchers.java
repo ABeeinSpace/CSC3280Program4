@@ -1,4 +1,5 @@
 /*
+ USING LATE PASS
  Aidan Border
  11/10/2021
  CSC 3280
@@ -7,9 +8,9 @@
 */
 
 public class FSCvouchers {
-	int top;
-	int maxSize;
-	FSCvoucher[] stack;
+	private int top;
+	private int maxSize;
+	private FSCvoucher[] stack;
 
 	public FSCvouchers(int size) {
 		maxSize = size;
@@ -17,6 +18,7 @@ public class FSCvouchers {
 		top = -1;
 	}
 
+	/*Empty constructor for completeness' sake*/
 	public FSCvouchers() {
 
 	}
@@ -59,6 +61,8 @@ public class FSCvouchers {
 		System.out.println();
 	}
 
+	/*This method is used in the Lowly Minion sim. It nulls out the stack to simulate the Lowly Minion physically
+	taking the stack of vouchers into the back room or wherever he takes them. */
 	public void clearStack() {
 		for (int i = 0; i <= top; i++) {
 			stack[i] = null;

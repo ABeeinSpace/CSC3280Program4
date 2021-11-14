@@ -1,4 +1,5 @@
 /*
+ USING LATE PASS
  Aidan Border
  11/10/2021
  CSC 3280
@@ -7,14 +8,14 @@
 */
 
 public class FSCvoucher {
-	int arrivalTime;
-	int ID;
-	String firstName;
-	String lastName;
-	String code;
-	int timeStarted;
-	int timeFinished;
-	FSCvoucher next;
+	private int arrivalTime;
+	private int ID;
+	private String firstName;
+	private String lastName;
+	private String code;
+	private int timeStarted;
+	private int timeFinished;
+	private FSCvoucher next;
 
 
 	//region Constructors
@@ -27,6 +28,7 @@ public class FSCvoucher {
 //		this.timeStarted = timeStarted;
 	}
 
+	/*Empty constructor for completeness' sake.*/
 	public FSCvoucher() {
 	}
 	//endregion
@@ -89,6 +91,8 @@ public class FSCvoucher {
 	}
 	//endregion
 
+	/*This method is invoked when we detect that the minutesRemaining of a given voucher is less than or equal to 0.
+	A value like that means that the team has finished working on the car.*/
 	public String printFinishedMessage(String currentTime) {
 		String output = String.format("%s  The car for %s %s is now finished.\n" +
 				"           Waiting time in line: %d minutes\n" +
@@ -100,6 +104,8 @@ public class FSCvoucher {
 	}
 
 	@Override
+	/*This method is used for the Lowly Minion simulation. It's constructed in a way that we can use it in a for loop
+	*  in FSCvouchers */
 	public String toString() {
 		return String.format("           %s %s (%s)\n", firstName, lastName, code);
 	}
